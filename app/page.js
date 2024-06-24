@@ -8,6 +8,7 @@ import CaseStudies from "./case-studies-section"
 import Testimonial from "./testimonial-section";
 import Blog from "./blog-section"
 import AboutUs from "./about-us-section";
+import Inqury from "./inqury-section";
 
 import indexStyles from "./styles/index.css";
 
@@ -32,6 +33,7 @@ export default function HomePage() {
       <Testimonial />
       <Blog />
       <AboutUs />
+      <Inqury />
     </div>
   );
 }
