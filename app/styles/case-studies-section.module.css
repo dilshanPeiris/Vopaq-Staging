@@ -1,0 +1,198 @@
+.caseStudiesMainContainer {
+  width: 83.34vw;
+  /* background-color: #6142aa; */
+  margin: 10vh auto 5vh auto;
+}
+
+.sectionTitle {
+  color: var(--Vopaq-colors-Primary-Green, #19191a);
+  font-family: "Roboto Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20.8px; /* 130% */
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  padding-bottom: 8px;
+}
+
+.subContainer {
+  display: flex;
+}
+
+.subContainerLeft {
+  /* background-color: rgb(93, 192, 63); */
+  width: 29.7vw;
+  height: 40vh;
+  padding-right: 92px;
+}
+
+.subContainerContent {
+  display: flex;
+  width: 389px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  padding-top: 24px;
+  border-top: 1px solid var(--Vopaq-colors-Primary-Green, #19191a);
+}
+
+.subContainerTitleText {
+  color: var(--vopaq-colors-green-60, rgba(6, 39, 44, 0.6));
+  font-family: Inter;
+  font-size: 45.188px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 52.8px; /* 116.846% */
+}
+
+.subContainerDescription {
+  color: var(--vopaq-colors-green-60, rgba(6, 39, 44, 0.6));
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  margin-bottom: 48px;
+  text-align: justify;
+}
+
+.caseStudyDescription {
+  /* background-color: rgb(211, 167, 167); */
+  height: 30vh;
+}
+
+.caseStudyButtons {
+  display: flex;
+  max-width: 768px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.buttonOne {
+  padding: 16px 20px;
+  border-radius: 8px;
+  width: auto;
+  border: 0;
+  background: var(--Foundation-Yellow-yellow-500, #e6c068);
+  backdrop-filter: blur(15px);
+}
+
+.subContainerRight {
+  /* background-color: rgb(38, 99, 99); */
+  width: 70.3vw;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex: 1 0 0;
+  align-self: stretch;
+  gap: 62px;
+}
+
+.caseStudyCardOne {
+  /* background-color: black; */
+  width: 530px;
+  height: 520px;
+  /* opacity: 0.6; */
+  background: url("../resources/images/case-01.png");
+}
+
+.caseStudyCardTwo {
+  /* background-color: black; */
+  width: 530px;
+  height: 520px;
+  background: url("../resources/images/case-02.png");
+}
+
+.caseStudyCardContent {
+  display: flex;
+  width: 530px;
+  height: 520px;
+  padding: 48px;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  background: var(--Vopaq-colors-Primary-Green, rgba(25, 25, 26, 0.61));
+}
+
+.caseStudyCardIntroduction {
+  width: 290px;
+}
+
+.CaseStudyTitle {
+  color: var(--Vopaq-colors-White, #fff);
+  font-family: Inter;
+  font-size: 31.125px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38.4px; /* 123.373% */
+}
+
+.CaseStudyDescription {
+  color: var(--Description, #c6d2d2);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.6px; /* 160% */
+  margin-bottom: 24px;
+}
+
+.caseStudyCardButton {
+  display: flex;
+  max-width: 356.7px;
+
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.caseStudyButtonOne {
+  color: var(--Vopaq-colors-White, #fff);
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px; /* 93.75% */
+  padding: 13px 17px;
+  border-radius: 8px;
+  border: 1px solid var(--vopaq-colors-white-12, rgba(255, 255, 255, 0.12));
+  background: var(--vopaq-colors-white-5, rgba(255, 255, 255, 0.05));
+  backdrop-filter: blur(15px);
+}
+
+.caseStudyRating {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.caseStudyReviewerProfileImage {
+  width: 50px;
+  height: 50px;
+  max-width: 351.97px;
+  border-radius: 500px;
+  border: 2px solid var(--Vopaq-colors-White, #fff);
+  background: url("../resources/images/case-profile.png") lightgray -12.481px 0px /
+    149.925% 100% no-repeat;
+}
+
+.caseStudyRatingAndReviewDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 3.3px;
+}
+
+.caseStudyRatingValue {
+}
+
+.caseStudyReviewDetails {
+  color: var(--Vopaq-colors-White, #fff);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22.4px; /* 160% */
+}

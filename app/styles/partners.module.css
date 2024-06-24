@@ -1,0 +1,20 @@
+.partnerMainContainer {
+  display: flex;
+  width: 90vw;
+  justify-content: space-evenly;
+}
+
+.partnerListContainer {
+  width: 62.5vw;
+  padding: 48px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.partnerList {
+  list-style: none;
+  display: flex;
+  gap: 100px;
+  justify-content: space-evenly;
+  flex-direction: row;
+}

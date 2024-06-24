@@ -1,0 +1,145 @@
+.navbar {
+  width: 95vw;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  justify-content: space-between;
+  z-index: 1000;
+  position: absolute;
+
+  padding: 27px 48px;
+
+  color: var(--Vopaq-colors-Gray, #9a9fa0);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px; /* 112.5% */
+}
+
+.navbarLeft {
+  width: 44.583vw;
+  /* background-color: #fff; */
+  display: flex;
+  align-items: center;
+  color: #fff;
+  justify-content: space-between;
+}
+
+.navbarRight {
+  width: 44.583vw;
+  /* background-color: #fff; */
+  display: flex;
+  align-items: center;
+  color: #fff;
+  justify-content: space-between;
+}
+
+.logo a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.navLinks a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.navLinks a:hover {
+  text-decoration: underline;
+}
+
+.socialLinks {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.socialLink {
+  display: flex;
+  width: 16px;
+  height: 16px;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 500px;
+  border: 1px solid var(--vopaq-colors-white-12, rgba(255, 255, 255, 0.12));
+  background: var(--vopaq-colors-white-5, rgba(255, 255, 255, 0.05));
+  backdrop-filter: blur(16px);
+}
+
+.contactEmaildiv {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  align-self: stretch;
+}
+
+.contactEmail {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.contactEmailIcon {
+  display: flex;
+  width: 16px;
+  height: 16px;
+  padding: 11px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 500px;
+  border: 1px solid var(--vopaq-colors-white-12, rgba(255, 255, 255, 0.12));
+  background: var(--vopaq-colors-white-5, rgba(255, 255, 255, 0.05));
+  backdrop-filter: blur(16px);
+}
+
+.contactNumber {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--Vopaq-colors-White, #fff);
+}
+
+.searchGetInTouchBtns {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 24px;
+}
+
+.searchBtn {
+  display: flex;
+  height: 42px;
+  max-width: 123.86px;
+  padding-right: 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  border-right: 1px solid #fff;
+  backdrop-filter: blur(15px);
+}
+
+.getInTouchBtn {
+  display: flex;
+  padding: 16px 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+  color: var(--Vopaq-colors-White, #fff);
+  text-align: center;
+  font-family: Inter;
+  border-radius: 8px;
+  border: 1px solid var(--vopaq-colors-white-12, rgba(255, 255, 255, 0.12));
+  background: var(--vopaq-colors-white-5, rgba(255, 255, 255, 0.05));
+  backdrop-filter: blur(15px);
+}
