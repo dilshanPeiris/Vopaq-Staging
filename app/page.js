@@ -1,5 +1,5 @@
 import LikeButton from "./like-button";
-// import NavBar from "./Navbar";
+import NavBar from "./navbar";
 import HeroSection from "./hero-section";
 import Partner from "./partners";
 import Services from "./services.section";
@@ -22,7 +22,7 @@ export default function HomePage() {
 
   return (
     <div className={indexStyles.mainContainer}>
-      {/* <NavBar /> */}
+      <NavBar />
       <HeroSection />
       <Partner />
       <Services />
