@@ -27,7 +27,7 @@
 
 .titleText {
   display: flex;
-  width: 768px;
+  /* width: 768px; */
   height: 483px;
   flex-direction: column;
   justify-content: center;
@@ -127,4 +127,13 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
+}
+
+@media (max-width: 1400px) {
+  .subContainerRight {
+    display: none;
+  }
+  .subContainerLeft {
+    width: 100vw;
+  }
 }

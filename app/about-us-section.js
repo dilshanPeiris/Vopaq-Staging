@@ -25,13 +25,13 @@ export default function AboutUs() {
                             About Us
                         </div>
                     </div>
-                    <div className={`col-xxl-12 ${aboutusStyles.subContainer}`}>
-                        <div className={`col-xxl-3 ${aboutusStyles.subContainerLeft}`}>
+                    <div className={`col-xxl-12 col-lg-12 col-md-12 col-sm-12 col-12 ${aboutusStyles.subContainer}`}>
+                        <div className={`col-xxl-3 col-xl-3 col-lg-3 col-sm-3 col-3 ${aboutusStyles.subContainerLeft}`}>
                             <div className={aboutusStyles.subContainerContent}>
                                 <div className={aboutusStyles.subContainerTitleText}>
                                     Who We Are?
                                 </div>
-                                <div className={aboutusStyles.subContainerDescription}>
+                                {/* <div className={aboutusStyles.subContainerDescription}>
                                     <div className={aboutusStyles.subContainerDescriptionTitle}>
                                         We are
                                     </div>
@@ -81,19 +81,19 @@ export default function AboutUs() {
                                         </svg>
 
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
 
 
                         </div>
-                        <div className={`col-xxl-9 ${aboutusStyles.subContainerRight}`}>
+                        <div className={`col-xxl-9 col-xl-9 col-lg-9 col-sm-9 col-9 ${aboutusStyles.subContainerRight}`}>
                             <div className={aboutusStyles.subContainerRightContent}>
-                                <div className={`col-xxl-6 ${aboutusStyles.imageCard}`}>
+                                <div className={`col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-6 ${aboutusStyles.imageCard}`}>
 
                                     {/* <img src={aboutUsImage} /> */}
                                 </div>
 
-                                <div className={`col-xxl-6 ${aboutusStyles.descriptionCard}`}>
+                                <div className={`col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-6 ${aboutusStyles.descriptionCard}`}>
                                     <div className={aboutusStyles.descriptionCardSummary}>
                                         At Vopaq, we drive success with customized strategic solutions. Through cutting-edge consulting, business development, and ongoing monitoring, we navigate the intricacies of the business world alongside you.
                                     </div>

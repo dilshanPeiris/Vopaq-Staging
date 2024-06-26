@@ -16,8 +16,8 @@ export default function HeroSection() {
         <section>
             <div className={`container ${heroStyles.mainContainer} ${heroStyles.container}`}>
                 <div className="row">
-                    <div className="col-xxl-12 d-flex">
-                        <div className={`col-xxl-6 ${heroStyles.subContainerLeft}`}>
+                    <div className="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 d-flex">
+                        <div className={`col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-6 ${heroStyles.subContainerLeft}`}>
                             <div className={heroStyles.titleText}>
                                 <div className={heroStyles.titleTextPartOne}>
                                     Lorem Ipsum,
@@ -52,7 +52,7 @@ export default function HeroSection() {
 
 
                         </div>
-                        <div className={`col-xxl-6 ${heroStyles.subContainerRight}`}>
+                        <div className={`col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-6 ${heroStyles.subContainerRight}`}>
                             {/* <Image
                     src= "/hero-1.png"
                     alt="Descriptive text for screen readers"

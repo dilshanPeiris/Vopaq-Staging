@@ -23,7 +23,8 @@
   /* box-sizing: border-box; */
   /* background-image: url("../resources/images/why-choose-us.png"); */
   display: flex;
-  height: 1021px;
+  width: 54.792vw;
+  height: 53.177vw;
   justify-content: flex-start;
   align-items: flex-end;
   /* flex-shrink: 0; */
@@ -40,7 +41,7 @@
 
 .subContainerLeftContent {
   display: flex;
-  width: 600px;
+  width: 31.25vw;
   max-width: 600px;
   flex-direction: column;
   justify-content: flex-end;
@@ -69,7 +70,7 @@
 .subContainerRight {
   /* width: 45.208vw; */
   /* height: 53.177vw; */
-  height: 1021px;
+  height: 53.177vw;
   background: var(--Vopaq-colors-Aqua-white, #f4f8f8);
   box-sizing: border-box;
   padding: 48px 96px;

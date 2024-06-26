@@ -135,3 +135,25 @@
   background: url("../resources/images/case-profile.png") lightgray -12.481px 0px /
     149.925% 100% no-repeat;
 }
+
+@media (max-width: 1900px) {
+  .subContainerLeft{
+    width: 40vw;
+  }
+}
+
+
+@media (max-width: 1540px) {
+  .subContainer{
+    flex-direction: column;
+    text-align: center;
+
+  }
+  .subContainerLeft{
+    width: 80vw;
+    padding-right:0;
+    height: 20vw;
+    margin-bottom: 10vw;
+
+  }
+}

@@ -7,7 +7,7 @@
   justify-content: center;
 
   display: flex;
-  width: 680px;
+  width: 35.417vw;
   /* height: 44.115vw; */
   max-width: 800px;
   padding: 48px;
@@ -41,7 +41,7 @@
 
 .formGroup {
   display: flex;
-  width: 600px;
+  width: 31.25vw;
   max-width: 600px;
   align-items: flex-start;
   justify-content: space-between;
@@ -57,7 +57,7 @@
   display: flex;
   padding: 0px 16px;
   align-items: flex-start;
-  width: 250px;
+  width: 13.021vw;
   height: 48px;
   gap: 10px;
   /* margin-right: 24px; */
@@ -73,7 +73,7 @@
   border-radius: 5px;
   border: none;
   font-size: 1em;
-  width: 250px;
+  width: 13.021vw;
   height: 48px;
   border-radius: 8px;
   background: var(--Form-text-area-blur, rgba(238, 213, 153, 0.12));
@@ -83,8 +83,8 @@
   resize: none;
   height: 48px;
   display: flex;
-  width: 590px;
-  /* padding: 0px 16px; */
+  width: 31.25vw;
+  padding: 0px 16px;
   align-items: flex-start;
   gap: 10px;
   flex-shrink: 0;
@@ -98,7 +98,7 @@
   justify-content: flex-start;
   align-items: center;
   /* gap: 16px; */
-  width: 590px;
+  width: 30.729vw;
   margin-top: 36px;
 }
 

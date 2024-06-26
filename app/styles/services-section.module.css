@@ -31,12 +31,13 @@
 
 .subContainerLeft {
   /* background-color: rgb(79, 173, 173); */
-  /* width: 30vw; */
+  width: 30vw;
   height: 40vh;
 }
 
 .subContainerContent {
-  width: 382px;
+  min-width: 352px;
+  max-width: 382px;
   background-color: white;
   border-top: 1px solid var(--Vopaq-colors-Primary-Green, #19191a);
   padding-top: 24px;
@@ -63,6 +64,7 @@
   line-height: 28px; /* 175% */
   margin-bottom: 48px;
   text-align: justify;
+  padding-right: 100px;
 }
 
 .serviceButtons {
@@ -85,6 +87,7 @@
   /* background-color: rgb(38, 99, 99); */
   /* width: 70vw; */
   height: 42vw;
+  overflow-y: scroll;
 }
 
 .sliderContent {
@@ -95,7 +98,7 @@
   grid-template-columns: auto auto;
   gap: 62px;
   padding-left: 48px;
-  
+
   /* overflow-y: scroll; */
 }
 
@@ -113,7 +116,7 @@
   background: var(--Vopaq-colors-Aqua-white, #f4f8f8);
   /* background: var(--Vopaq-colors-Aqua-white, #10a1a1); */
   /* width: 28.516vwvw; */
-  height: 4.688vw;
+  height: auto;
   padding: 32px;
   gap: 8px;
 }

@@ -41,9 +41,9 @@ export default function Testimonial() {
         <section className={TestimonialStyles.testimonialSection}>
             <div className={TestimonialStyles.overlay}>
                 <div className={`container ${TestimonialStyles.mainContainer} ${TestimonialStyles.container}`}>
-                    <div className={`col-xxl-12 ${TestimonialStyles.subContainer}`}>
+                    <div className={`col-xxl-12 col-lg-12 col-md-12 col-sm-12 col-12 ${TestimonialStyles.subContainer}`}>
 
-                        <div className={`col-xxl-6 ${TestimonialStyles.subContainerLeft}`}>
+                        <div className={`col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-6  ${TestimonialStyles.subContainerLeft}`}>
                             <div className={TestimonialStyles.subContainerLeftTitle}>
                                 Hear From Our Clients
                             </div>
@@ -52,13 +52,13 @@ export default function Testimonial() {
                             </div>
                         </div>
 
-                        <div className={`col-xxl-6 ${TestimonialStyles.subContainerRight}`}>
+                        <div className={`col-xxl-6 col-xl-6 col-lg-6 col-sm-6 col-6 ${TestimonialStyles.subContainerRight}`}>
                             <Slider {...settings}>
                                 <div className={TestimonialStyles.testimonyCards}>
 
                                     <div className={TestimonialStyles.testimonyCardRowOne}>
 
-                                        <div className={`col-xxl-5 ${TestimonialStyles.testimonyCard}`}>
+                                        <div className={`col-xxl-5 col-xl-5 col-lg-5 col-sm-5 col-5 ${TestimonialStyles.testimonyCard}`}>
                                             <div className={TestimonialStyles.testimonyInfo}>
                                                 <div className={TestimonialStyles.testimonyReviewerProfileImage}>
 
@@ -76,7 +76,7 @@ export default function Testimonial() {
                                                 We handle the entire renting process, from screening tenants to signing leases and collecting rent.
                                             </div>
                                         </div>
-                                        <div className={`col-xxl-5 ${TestimonialStyles.testimonyCard}`}>
+                                        <div className={`col-xxl-5 col-xl-5 col-lg-5 col-sm-5 col-5 ${TestimonialStyles.testimonyCard}`}>
                                             <div className={TestimonialStyles.testimonyInfo}>
                                                 <div className={TestimonialStyles.testimonyReviewerProfileImage}>
 
@@ -119,7 +119,7 @@ export default function Testimonial() {
 
                                     </div>
                                     <div className={TestimonialStyles.testimonyCardRowThree}>
-                                        <div className={`col-xxl-5 ${TestimonialStyles.testimonyCard}`}>
+                                        <div className={`col-xxl-5 col-xl-5 col-lg-5 col-sm-5 col-5 ${TestimonialStyles.testimonyCard}`}>
                                             <div className={TestimonialStyles.testimonyInfo}>
                                                 <div className={TestimonialStyles.testimonyReviewerProfileImage}>
 
@@ -137,7 +137,7 @@ export default function Testimonial() {
                                                 We handle the entire renting process, from screening tenants to signing leases and collecting rent.
                                             </div>
                                         </div>
-                                        <div className={`col-xxl-5 ${TestimonialStyles.testimonyCard}`}>
+                                        <div className={`col-xxl-5 col-xl-5 col-lg-5 col-sm-5 col-5 ${TestimonialStyles.testimonyCard}`}>
                                             <div className={TestimonialStyles.testimonyInfo}>
                                                 <div className={TestimonialStyles.testimonyReviewerProfileImage}>
 
