@@ -1,5 +1,9 @@
+.container {
+  max-width: calc(100% - 320px) !important;
+}
+
 .mainContainer {
-  width: 83.34vw;
+  /* width: 83.34vw; */
   /* background-color: rgb(255, 0, 255); */
   height: 37.188vw;
   margin: 96px auto 0px auto;
@@ -7,7 +11,7 @@
 }
 
 .sectionTitle {
-  width: 30vw;
+  /* width: 30vw; */
   color: var(--Vopaq-colors-Primary-Green, #19191a);
 
   /* Vopaq Text/Roboto Mono/Regular 13 upper */
@@ -28,11 +32,13 @@
 
 .subContainerLeft {
   /* background-color: rgb(79, 173, 173); */
-  width: 20vw;
+  /* width: 20vw; */
+  /* margin-right: 96px; */
+
 }
 
 .subContainerContent {
-  width: 382px;
+  /* width: 382px; */
   height: 465px;
   background-color: white;
   border-top: 1px solid var(--Vopaq-colors-Primary-Green, #19191a);
@@ -80,10 +86,10 @@
 
 .subContainerRight {
   /* background-color: rgb(38, 99, 99); */
-  width: 58.542vw;
+  /* width: 58.542vw; */
   /* height: 42vw; */
   display: flex;
-  gap: 64px;
+  /* gap: 64px; */
 }
 
 .subContainerRightContent {
@@ -91,8 +97,10 @@
   /* width: 1124px; */
   /* height: 493px; */
   align-items: flex-start;
-  gap: 64px;
+  /* gap: 64px; */
   text-align: justify;
+  justify-content: flex-end;
+  padding-left: 92px;
 }
 
 .imageCard {
@@ -101,13 +109,15 @@
   height: 465px;
   background: url("../resources/images/about-us.png") lightgray 50% / cover
     no-repeat;
+  /* padding-left: 92px; */
 }
 
 .descriptionCard {
-  width: 27.604vw;
+  /* width: 27.604vw; */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  padding-left: 64px;
 }
 
 .descriptionCardSummary {

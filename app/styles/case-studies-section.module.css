@@ -1,5 +1,9 @@
+.container {
+  max-width: calc(100% - 320px) !important;
+}
+
 .caseStudiesMainContainer {
-  width: 83.34vw;
+  /* width: 83.34vw; */
   /* background-color: #6142aa; */
   margin: 10vh auto 5vh auto;
 }
@@ -22,7 +26,7 @@
 
 .subContainerLeft {
   /* background-color: rgb(93, 192, 63); */
-  width: 29.7vw;
+  /* width: 29.7vw; */
   height: 40vh;
   padding-right: 92px;
 }
@@ -80,10 +84,12 @@
 
 .subContainerRight {
   /* background-color: rgb(38, 99, 99); */
-  width: 70.3vw;
+  /* width: 70.3vw; */
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  justify-content: flex-end;
+
   flex: 1 0 0;
   align-self: stretch;
   gap: 62px;

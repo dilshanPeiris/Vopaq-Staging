@@ -1,3 +1,7 @@
+.container {
+  max-width: calc(100% - 0px) !important;
+}
+
 .mainContainer {
   width: 100vw;
   height: fit-content;

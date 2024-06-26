@@ -1,14 +1,24 @@
-.inquiryMainContainer {
-  width: 100vw;
-  /* height: 50vh; */
+.inqurySection {
   background: url("../resources/images/inquire.png") no-repeat;
 }
 
-.subContainer {
+.overlay {
+  background: rgba(39, 39, 39, 0.719);
+}
+
+.container {
+  max-width: calc(100% - 320px) !important;
+}
+
+.inquiryMainContainer {
   width: 100vw;
+  /* height: 100vw; */
+}
+
+.subContainer {
+  /* width: 100vw; */
   height: 847px;
-  padding: 68px 0;
-  background: rgba(25, 25, 26, 0.61);
+  /* padding: 68px 0; */
   display: flex;
   align-items: center;
 }
@@ -97,7 +107,7 @@
 }
 
 .subContainerRight {
-  width: 50vw;
+  /* width: 50vw; */
   height: 50vh;
   /* background: #788c91; */
   display: flex;

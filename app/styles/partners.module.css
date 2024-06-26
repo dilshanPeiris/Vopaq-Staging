@@ -1,3 +1,7 @@
+.container {
+  max-width: calc(100% - 320px) !important;
+}
+
 .partnerMainContainer {
   display: flex;
   width: 90vw;
@@ -14,7 +18,7 @@
 .partnerList {
   list-style: none;
   display: flex;
-  gap: 100px;
+  /* gap: 100px; */
   justify-content: space-evenly;
   flex-direction: row;
 }

@@ -2,6 +2,10 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+
+// add bootstrap css 
+import 'bootstrap/dist/css/bootstrap.css';
+
 import TestimonialStyles from './styles/testimonial.section.module.css'
 
 import React, { Component } from "react";
@@ -33,125 +37,129 @@ export default function Testimonial() {
     };
 
     return (
-        <div className={TestimonialStyles.mainContainer}>
-            <div className={TestimonialStyles.subContainer}>
-                <div className={TestimonialStyles.subContainerLeft}>
-                    <div className={TestimonialStyles.subContainerLeftTitle}>
-                        Hear From Our Clients
-                    </div>
-                    <div className={TestimonialStyles.subContainerLeftDescription}>
-                        We prioritize personalized solutions over generic ones because we recognize the uniqueness of each challenge.
-                    </div>
-                </div>
 
-                <div className={TestimonialStyles.subContainerRight}>
-                    <Slider {...settings}>
-                        <div className={TestimonialStyles.testimonyCards}>
+        <section className={TestimonialStyles.testimonialSection}>
+            <div className={TestimonialStyles.overlay}>
+                <div className={`container ${TestimonialStyles.mainContainer} ${TestimonialStyles.container}`}>
+                    <div className={`col-xxl-12 ${TestimonialStyles.subContainer}`}>
 
-                            <div className={TestimonialStyles.testimonyCardRowOne}>
-
-                                <div className={TestimonialStyles.testimonyCard}>
-                                    <div className={TestimonialStyles.testimonyInfo}>
-                                        <div className={TestimonialStyles.testimonyReviewerProfileImage}>
-
-                                        </div>
-                                        <div className={TestimonialStyles.testimonyReviewerDetails}>
-                                            <div className={TestimonialStyles.testimonyReviewerName}>
-                                                John Matthews
-                                            </div>
-                                            <div className={TestimonialStyles.testimonyReviewerDesignation}>
-                                                Engineer
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className={TestimonialStyles.testimonyReviewDetails}>
-                                        We handle the entire renting process, from screening tenants to signing leases and collecting rent.
-                                    </div>
-                                </div>
-                                <div className={TestimonialStyles.testimonyCard}>
-                                    <div className={TestimonialStyles.testimonyInfo}>
-                                        <div className={TestimonialStyles.testimonyReviewerProfileImage}>
-
-                                        </div>
-                                        <div className={TestimonialStyles.testimonyReviewerDetails}>
-                                            <div className={TestimonialStyles.testimonyReviewerName}>
-                                                John Matthews
-                                            </div>
-                                            <div className={TestimonialStyles.testimonyReviewerDesignation}>
-                                                Engineer
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className={TestimonialStyles.testimonyReviewDetails}>
-                                        We handle the entire renting process, from screening tenants to signing leases and collecting rent.
-                                    </div>
-                                </div>
-
+                        <div className={`col-xxl-6 ${TestimonialStyles.subContainerLeft}`}>
+                            <div className={TestimonialStyles.subContainerLeftTitle}>
+                                Hear From Our Clients
                             </div>
-
-                            <div className={TestimonialStyles.testimonyCardRowTwo}>
-                                <div className={TestimonialStyles.testimonyCard}>
-                                    <div className={TestimonialStyles.testimonyInfo}>
-                                        <div className={TestimonialStyles.testimonyReviewerProfileImage}>
-
-                                        </div>
-                                        <div className={TestimonialStyles.testimonyReviewerDetails}>
-                                            <div className={TestimonialStyles.testimonyReviewerName}>
-                                                John Matthews
-                                            </div>
-                                            <div className={TestimonialStyles.testimonyReviewerDesignation}>
-                                                Engineer
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className={TestimonialStyles.testimonyReviewDetails}>
-                                        We handle the entire renting process, from screening tenants to signing leases and collecting rent.
-                                    </div>
-                                </div>
-
+                            <div className={TestimonialStyles.subContainerLeftDescription}>
+                                We prioritize personalized solutions over generic ones because we recognize the uniqueness of each challenge.
                             </div>
-                            <div className={TestimonialStyles.testimonyCardRowThree}>
-                                <div className={TestimonialStyles.testimonyCard}>
-                                    <div className={TestimonialStyles.testimonyInfo}>
-                                        <div className={TestimonialStyles.testimonyReviewerProfileImage}>
-
-                                        </div>
-                                        <div className={TestimonialStyles.testimonyReviewerDetails}>
-                                            <div className={TestimonialStyles.testimonyReviewerName}>
-                                                John Matthews
-                                            </div>
-                                            <div className={TestimonialStyles.testimonyReviewerDesignation}>
-                                                Engineer
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className={TestimonialStyles.testimonyReviewDetails}>
-                                        We handle the entire renting process, from screening tenants to signing leases and collecting rent.
-                                    </div>
-                                </div>
-                                <div className={TestimonialStyles.testimonyCard}>
-                                    <div className={TestimonialStyles.testimonyInfo}>
-                                        <div className={TestimonialStyles.testimonyReviewerProfileImage}>
-
-                                        </div>
-                                        <div className={TestimonialStyles.testimonyReviewerDetails}>
-                                            <div className={TestimonialStyles.testimonyReviewerName}>
-                                                John Matthews
-                                            </div>
-                                            <div className={TestimonialStyles.testimonyReviewerDesignation}>
-                                                Engineer
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div className={TestimonialStyles.testimonyReviewDetails}>
-                                        We handle the entire renting process, from screening tenants to signing leases and collecting rent.
-                                    </div>
-                                </div>
-                            </div>
-
                         </div>
 
-                        {/* <div className={TestimonialStyles.testimonyCards}>
+                        <div className={`col-xxl-6 ${TestimonialStyles.subContainerRight}`}>
+                            <Slider {...settings}>
+                                <div className={TestimonialStyles.testimonyCards}>
+
+                                    <div className={TestimonialStyles.testimonyCardRowOne}>
+
+                                        <div className={`col-xxl-5 ${TestimonialStyles.testimonyCard}`}>
+                                            <div className={TestimonialStyles.testimonyInfo}>
+                                                <div className={TestimonialStyles.testimonyReviewerProfileImage}>
+
+                                                </div>
+                                                <div className={TestimonialStyles.testimonyReviewerDetails}>
+                                                    <div className={TestimonialStyles.testimonyReviewerName}>
+                                                        John Matthews
+                                                    </div>
+                                                    <div className={TestimonialStyles.testimonyReviewerDesignation}>
+                                                        Engineer
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className={TestimonialStyles.testimonyReviewDetails}>
+                                                We handle the entire renting process, from screening tenants to signing leases and collecting rent.
+                                            </div>
+                                        </div>
+                                        <div className={`col-xxl-5 ${TestimonialStyles.testimonyCard}`}>
+                                            <div className={TestimonialStyles.testimonyInfo}>
+                                                <div className={TestimonialStyles.testimonyReviewerProfileImage}>
+
+                                                </div>
+                                                <div className={TestimonialStyles.testimonyReviewerDetails}>
+                                                    <div className={TestimonialStyles.testimonyReviewerName}>
+                                                        John Matthews
+                                                    </div>
+                                                    <div className={TestimonialStyles.testimonyReviewerDesignation}>
+                                                        Engineer
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className={TestimonialStyles.testimonyReviewDetails}>
+                                                We handle the entire renting process, from screening tenants to signing leases and collecting rent.
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div className={TestimonialStyles.testimonyCardRowTwo}>
+                                        <div className={`col-xxl-5 ${TestimonialStyles.testimonyCard}`}>
+                                            <div className={TestimonialStyles.testimonyInfo}>
+                                                <div className={TestimonialStyles.testimonyReviewerProfileImage}>
+
+                                                </div>
+                                                <div className={TestimonialStyles.testimonyReviewerDetails}>
+                                                    <div className={TestimonialStyles.testimonyReviewerName}>
+                                                        John Matthews
+                                                    </div>
+                                                    <div className={TestimonialStyles.testimonyReviewerDesignation}>
+                                                        Engineer
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className={TestimonialStyles.testimonyReviewDetails}>
+                                                We handle the entire renting process, from screening tenants to signing leases and collecting rent.
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div className={TestimonialStyles.testimonyCardRowThree}>
+                                        <div className={`col-xxl-5 ${TestimonialStyles.testimonyCard}`}>
+                                            <div className={TestimonialStyles.testimonyInfo}>
+                                                <div className={TestimonialStyles.testimonyReviewerProfileImage}>
+
+                                                </div>
+                                                <div className={TestimonialStyles.testimonyReviewerDetails}>
+                                                    <div className={TestimonialStyles.testimonyReviewerName}>
+                                                        John Matthews
+                                                    </div>
+                                                    <div className={TestimonialStyles.testimonyReviewerDesignation}>
+                                                        Engineer
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className={TestimonialStyles.testimonyReviewDetails}>
+                                                We handle the entire renting process, from screening tenants to signing leases and collecting rent.
+                                            </div>
+                                        </div>
+                                        <div className={`col-xxl-5 ${TestimonialStyles.testimonyCard}`}>
+                                            <div className={TestimonialStyles.testimonyInfo}>
+                                                <div className={TestimonialStyles.testimonyReviewerProfileImage}>
+
+                                                </div>
+                                                <div className={TestimonialStyles.testimonyReviewerDetails}>
+                                                    <div className={TestimonialStyles.testimonyReviewerName}>
+                                                        John Matthews
+                                                    </div>
+                                                    <div className={TestimonialStyles.testimonyReviewerDesignation}>
+                                                        Engineer
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div className={TestimonialStyles.testimonyReviewDetails}>
+                                                We handle the entire renting process, from screening tenants to signing leases and collecting rent.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                {/* <div className={TestimonialStyles.testimonyCards}>
                         <div className={TestimonialStyles.testimonyCardRowOne}>
                             <div className={TestimonialStyles.testimonyCard}>
                                 <div className={TestimonialStyles.testimonyInfo}>
@@ -250,10 +258,14 @@ export default function Testimonial() {
                             </div>
                         </div>
                     </div> */}
-                    </Slider>
-                </div>
+                            </Slider>
+                        </div>
 
+                    </div>
+                </div>
             </div>
-        </div>
+
+        </section>
+
     );
 }

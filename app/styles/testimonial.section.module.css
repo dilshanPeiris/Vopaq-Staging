@@ -1,31 +1,43 @@
-.mainContainer {
-  width: 100vw;
-  height: 100vh;
-  background-color: rgb(226, 7, 7);
-  display: flex;
-  margin: 4.79vw 0 4.79vw 0;
+.testimonialSection {
   background: url("../resources/images/testimonial.png") lightgray 50% / cover
     no-repeat;
 }
 
+.overlay{
+  background: rgba(22, 22, 22, 0.623)  ;
+}
+
+.container {
+  max-width: calc(100% - 192px) !important;
+}
+
+.mainContainer {
+  width: 100vw;
+  height: 100vh;
+  /* background-color: rgb(226, 7, 7); */
+  display: flex;
+  /* margin: 4.79vw 0 4.79vw 0; */
+}
+
 .subContainer {
   display: flex;
-  width: 100vw;
-  padding: 96px;
+  /* width: 100vw; */
+  /* padding: 96px; */
   align-items: center;
-  gap: 268px;
+  /* gap: 268px; */
 
   /* opacity: 0.6; */
-  background: hsla(189, 47%, 9%, 0.61);
+  /* background: hsla(189, 47%, 9%, 0.61); */
 }
 
 .subContainerLeft {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 31.25vw;
+  /* width: 31.25vw; */
   height: 50vh;
   /* background-color: rgb(68, 78, 78); */
+  padding-right: 268px;
   gap: 16px;
 }
 
@@ -57,18 +69,18 @@
 }
 
 .testimonyCards {
-  width: 45vw;
+  /* width: 45vw; */
   /* background-color: rgb(27, 124, 124); */
   /* height: 34.271vw; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 53px;
+  /* gap: 53px; */
 }
 
 .testimonyCardRowOne {
   /* background-color: #16bb3f; */
-  width: 45vw;
+  /* width: 45vw; */
   /* height: 20vh; */
   display: flex;
   justify-content: space-between;
@@ -77,7 +89,7 @@
 
 .testimonyCardRowTwo {
   /* background-color: #16bb3f; */
-  width: 45vw;
+  /* width: 45vw; */
   /* height: 20vh; */
   display: flex;
   justify-content: center;
@@ -86,15 +98,15 @@
 
 .testimonyCardRowThree {
   /* background-color: #c7dacc; */
-  width: 45vw;
+  /* width: 45vw; */
   /* height: 20vh; */
   display: flex;
   justify-content: space-between;
 }
 
 .testimonyCard {
-  width: 17.4vw;
-  height: 11vh;
+  /* width: 17.4vw; */
+  /* height: 11vh; */
   /* background: #c562ff; */
   display: flex;
   padding: 24px;

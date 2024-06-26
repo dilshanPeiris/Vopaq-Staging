@@ -9,6 +9,10 @@ import Testimonial from "./testimonial-section";
 import Blog from "./blog-section"
 import AboutUs from "./about-us-section";
 import Inqury from "./inqury-section";
+import Footer from "./footer"
+
+// add bootstrap css 
+import 'bootstrap/dist/css/bootstrap.css';
 
 import indexStyles from "./styles/index.css";
 
@@ -34,6 +38,7 @@ export default function HomePage() {
       <Blog />
       <AboutUs />
       <Inqury />
+      <Footer />
     </div>
   );
 }
