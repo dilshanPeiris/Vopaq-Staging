@@ -229,3 +229,10 @@
     height: 16.667vw;
   }
 }
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: calc(100% - 160px) !important;
+    border: 1px solid black;
+  }
+}

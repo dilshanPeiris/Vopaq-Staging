@@ -137,3 +137,45 @@
     width: 100vw;
   }
 }
+
+@media (max-width: 768px) {
+  .subContainerLeft {
+    width: 100vw;
+    height: fit-content;
+    padding: 40vw 0;
+  }
+
+  .titleText {
+    margin-top: 7vw;
+  }
+
+  .titleTextPartOne {
+    font-size: 80px;
+    line-height: 100px;
+  }
+  .titleTextPartTwo {
+    font-size: 80px;
+    line-height: 100px;
+  }
+}
+
+@media (max-width: 575px) {
+  .subContainerLeft {
+    width: 100vw;
+    height: fit-content;
+    padding: 40vw 0;
+  }
+
+  .titleText {
+    margin-top: 20vw;
+  }
+
+  .titleTextPartOne {
+    font-size: 70px;
+    line-height: 90px;
+  }
+  .titleTextPartTwo {
+    font-size: 70px;
+    line-height: 90px;
+  }
+}

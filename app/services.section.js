@@ -25,7 +25,7 @@ export default function Services() {
                         </div>
                     </div>
                     <div className={`col-xxl-12 col-lg-12 col-md-12 col-sm-12 col-12 ${serviceStyles.subContainer}`}>
-                        <div className={`col-xxl-3 col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 ${serviceStyles.subContainerLeft}`}>
+                        <div className={`col-xxl-3 col-xl-4 col-lg-5 col-md-4 col-sm-4 col-5 ${serviceStyles.subContainerLeft}`}>
                             <div className={serviceStyles.subContainerContent}>
                                 <div className={serviceStyles.subContainerTitleText}>
                                     Tailored Solutions for Optimal Performance
@@ -43,7 +43,7 @@ export default function Services() {
 
                             </div>
                         </div>
-                        <div className={`col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-sm-9 col-9 ${serviceStyles.subContainerRight}`}>
+                        <div className={`col-xxl-9 col-xl-8 col-lg-7 col-md-8 col-sm-8 col-7 ${serviceStyles.subContainerRight}`}>
                             <div className={serviceStyles.sliderContent}>
                                 <div className={serviceStyles.sliderServiceCard}>
                                     <div className={serviceStyles.ServiceTitle}>

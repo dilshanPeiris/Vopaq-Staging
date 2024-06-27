@@ -5,7 +5,8 @@
 .mainContainer {
   /* width: 83.34vw; */
   /* background-color: rgb(255, 0, 255); */
-  height: 37.188vw;
+  height: auto;
+  /* height: 37.188vw; */
   margin: 96px auto 0px auto;
   /* display: flex; */
 }
@@ -112,7 +113,7 @@
 }
 
 .descriptionCard {
-  min-width: 520px;
+  min-width: 320px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -167,4 +168,32 @@
   border: 0;
   background: var(--Foundation-Yellow-yellow-500, #e6c068);
   backdrop-filter: blur(15px);
+}
+
+@media (max-width: 1900px) {
+}
+
+@media (max-width: 1760px) {
+}
+
+@media (max-width: 1450px) {
+  .subContainerLeft {
+    width: 18vw;
+  }
+
+  .descriptionCardSummary {
+    font-size: 17px;
+    line-height: 28px;
+  }
+  .descriptionCardParaOne {
+    font-size: 13px;
+    line-height: 22.6px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .subContainerRight{
+    display: flex;
+    flex-direction: column;
+  }
 }

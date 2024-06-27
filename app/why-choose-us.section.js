@@ -42,7 +42,7 @@ export default function WhyChooseUS() {
 
                 <div className="row">
                     <div className="col-xxl-12 col-lg-12 col-md-12 col-sm-12 col-12 d-flex p-0 me-1">
-                        <div className={`col-xxl-7 col-lg-7 col-md-7 col-sm-7 col-7 ${whyChooseUsStyles.subContainerLeft}`}>
+                        <div className={`col-xxl-6 col-lg-7 col-md-7 col-sm-7 col-7 ${whyChooseUsStyles.subContainerLeft}`}>
                             <div className={whyChooseUsStyles.subContainerLeftContent}>
                                 <div className={whyChooseUsStyles.subContainerLeftTitleText}>
                                     Why Choose Us
@@ -53,7 +53,7 @@ export default function WhyChooseUS() {
                             </div>
                         </div>
 
-                        <div className={`col-xxl-5 col-lg-5 col-md-5 col-sm-5 col-5 ${whyChooseUsStyles.subContainerRight}`}>
+                        <div className={`col-xxl-6 col-lg-5 col-md-5 col-sm-5 col-5 ${whyChooseUsStyles.subContainerRight}`}>
                             <div className={whyChooseUsStyles.subContainerContent}>
                                 <div className={whyChooseUsStyles.sectionTitle}>
                                     Why Choose Us?

@@ -34,7 +34,7 @@
   /* width: 44.583vw; */
   /* background-color: #fff; */
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   color: #fff;
   justify-content: space-around;
 }
@@ -208,6 +208,16 @@
   }
 
   .searchGetInTouchBtns {
+  }
+
+  .navbarToggle {
+    display: block;
+  }
+}
+
+@media (max-width: 1024px) {
+  .searchGetInTouchBtns {
+    display: none;
   }
 
   .navbarToggle {

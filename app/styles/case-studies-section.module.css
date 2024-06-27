@@ -152,6 +152,7 @@
 
   justify-content: flex-start;
   align-items: flex-start;
+  margin-bottom: 24px;
 }
 
 .caseStudyButtonOne {
@@ -203,11 +204,9 @@
   line-height: 22.4px; /* 160% */
 }
 
-
 @media (max-width: 1540px) {
-
-  .subContainerLeft{
-    width: 600px ;
+  .subContainerLeft {
+    width: 31.25vw;
   }
   .subContainerRight {
     flex-wrap: wrap;
@@ -215,11 +214,21 @@
     overflow-y: scroll;
     /* justify-content: center; */
   }
-  .caseStudyCardOne .caseStudyCardTwo .caseStudyCardContent
-  {
+  .caseStudyCardOne .caseStudyCardTwo .caseStudyCardContent {
     width: 530px;
     height: 520px;
   }
+}
 
-
+@media (max-width: 1400px) {
+  .subContainerLeft {
+    width: 26.042vw;
+  }
+  .subContainerRight {
+    width: auto;
+  }
+  .caseStudyCardOne .caseStudyCardTwo .caseStudyCardContent {
+    width: 530px;
+    height: 520px;
+  }
 }

@@ -202,11 +202,12 @@ export default function NavBar() {
                                     <div>
                                         <button className={styles.getInTouchBtn}>Get In Touch</button>
                                     </div>
-                                    <div>
-                                        <button class={styles.navbarToggle} aria-label="Toggle navigation">
-                                            <span class="navbar-toggle-icon"></span>
-                                        </button>
-                                    </div>
+
+                                </div>
+                                <div>
+                                    <button class={styles.navbarToggle} aria-label="Toggle navigation">
+                                        <span class="navbar-toggle-icon"></span>
+                                    </button>
                                 </div>
                             </div>
 

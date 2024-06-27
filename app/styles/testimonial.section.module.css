@@ -3,8 +3,8 @@
     no-repeat;
 }
 
-.overlay{
-  background: rgba(22, 22, 22, 0.623)  ;
+.overlay {
+  background: rgba(22, 22, 22, 0.623);
 }
 
 .container {
@@ -113,6 +113,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
+  text-align: left;
   gap: 16px;
   border-radius: 8px;
   border: 1px solid var(--vopaq-colors-white-12, rgba(255, 255, 255, 0.12));
@@ -137,23 +138,31 @@
 }
 
 @media (max-width: 1900px) {
-  .subContainerLeft{
+  .subContainerLeft {
     width: 40vw;
   }
 }
 
-
 @media (max-width: 1540px) {
-  .subContainer{
+  .subContainer {
     flex-direction: column;
     text-align: center;
-
   }
-  .subContainerLeft{
+  .subContainerLeft {
     width: 80vw;
-    padding-right:0;
+    padding-right: 0;
     height: 20vw;
+    /* margin-bottom: 10vw; */
+  }
+  .subContainerRight {
+    width: 80vw;
+    padding-right: 0;
+    /* height: 20vw; */
     margin-bottom: 10vw;
-
+    justify-content: center;
+  }
+  .testimonyCard {
+    min-width: 20vw;
+    max-width: 38vw;
   }
 }
