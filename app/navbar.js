@@ -14,6 +14,7 @@ export default function NavBar() {
 
 
     return (
+
         <header>
             <div className={`container ${styles.navbar} ${styles.container}`}>
                 <div className="row">

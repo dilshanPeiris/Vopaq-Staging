@@ -1,15 +1,11 @@
 .formContainer {
   display: flex;
-  /* width: 50vw; */
   max-width: 800px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
-  display: flex;
   width: 35.417vw;
   /* height: 44.115vw; */
-  max-width: 800px;
   padding: 48px;
 
   gap: 36px;
@@ -127,4 +123,35 @@
 
 .button:hover {
   background: #555;
+}
+
+@media (max-width: 768px) {
+  .formContainer {
+    width: 80vw;
+  }
+
+  .formGroup {
+    width: 60vw;
+    margin-top: 12px;
+  }
+
+  .submitButton {
+    width: 49vw;
+  }
+
+  .formComponent {
+    gap: 0px;
+    display: flex;
+    align-items: flex-start;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+
+  .formInput {
+    width: 28vw;
+  }
+
+  .textarea {
+    width: -webkit-fill-available;
+  }
 }

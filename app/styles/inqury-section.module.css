@@ -120,11 +120,85 @@
     align-items: flex-start;
   }
 
-  .subContainerDescription{
+  .subContainerDescription {
     text-align: left;
   }
 
-  .caseStudyButtons{
+  .caseStudyButtons {
     justify-content: flex-start;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: calc(100% - 160px) !important;
+  }
+  .subContainerRight {
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width: 768px) {
+  .inqurySection {
+    background-color: none;
+    /* height: 100vw; */
+    background-size: contain;
+    margin-bottom: 100px;
+  }
+  .container {
+    max-width: calc(100% - 160px) !important;
+  }
+  .subContainer {
+    flex-direction: column;
+  }
+
+  .subContainerSubTitleText {
+    width: fit-content;
+  }
+
+  .subContainerTitleText {
+    margin-bottom: 0;
+    font-size: 45px;
+  }
+
+  .subContainerLeft {
+    justify-content: space-between;
+    display: flex;
+    /* flex-direction: row; */
+    align-items: baseline;
+    /* gap: 60px; */
+    width: -webkit-fill-available;
+    padding-top: 24px;
+  }
+
+  .subContainerTitleInformationCard {
+    flex-direction: column;
+  }
+
+  .subContainerInformationCard {
+    flex-direction: column;
+  }
+
+  .subContainerDescription {
+    text-align: justify;
+    width: auto;
+    margin-bottom: 18px;
+    margin-top: 12px;
+  }
+
+  .subContainerRight {
+    width: fit-content;
+    /* height: ; */
+  }
+
+  .subContainer {
+    width: fit-content;
+    height: fit-content;
+    padding-bottom: 24px;
+  }
+
+  .buttonOne,
+  .buttonTwo {
+    padding: 8px 10px;
   }
 }

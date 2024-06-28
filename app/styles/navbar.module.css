@@ -1,3 +1,8 @@
+/* styles/globals.css */
+/* .bodyCss {
+  font-family: "OpenSans";
+} */
+
 .container {
   max-width: calc(100% - 0px) !important;
 }
@@ -155,7 +160,7 @@
 .navbarToggle {
   display: none;
   background: none;
-  position: absolute;
+  position: relative;
   right: 5px;
   border: none;
   color: white;
@@ -218,6 +223,16 @@
 @media (max-width: 1024px) {
   .searchGetInTouchBtns {
     display: none;
+  }
+
+  .navbarToggle {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  .searchGetInTouchBtns {
+    /* display: none; */
   }
 
   .navbarToggle {

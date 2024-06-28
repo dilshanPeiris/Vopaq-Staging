@@ -1,3 +1,7 @@
+.sectionAboutUs {
+  margin: 192px 0;
+}
+
 .container {
   max-width: calc(100% - 320px) !important;
 }
@@ -97,10 +101,10 @@
   /* width: 1124px; */
   /* height: 493px; */
   align-items: flex-start;
-  /* gap: 64px; */
+  gap: 64px;
   text-align: justify;
-  justify-content: flex-end;
-  padding-left: 92px;
+  justify-content: space-around;
+  /* padding-left: 92px; */
 }
 
 .imageCard {
@@ -114,10 +118,11 @@
 
 .descriptionCard {
   min-width: 320px;
+  max-width: 320px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding-left: 64px;
+  /* padding-left: 64px; */
 }
 
 .descriptionCardSummary {
@@ -170,10 +175,34 @@
   backdrop-filter: blur(15px);
 }
 
-@media (max-width: 1900px) {
+@media (max-width: 1920px) {
+  .subContainerRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .subContainerRightContent {
+    gap: 32px;
+    justify-content: space-evenly;
+  }
+
+  .descriptionCard {
+    max-width: 400px;
+  }
 }
 
 @media (max-width: 1760px) {
+  .subContainerRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 1540px) {
+  .subContainerRight {
+    justify-content: space-around;
+  }
 }
 
 @media (max-width: 1450px) {
@@ -189,11 +218,95 @@
     font-size: 13px;
     line-height: 22.6px;
   }
+
+  .subContainerRight {
+    justify-content: space-evenly;
+    gap: 32px !important;
+  }
+
+  /* .imageCard {
+    width: 20vw;
+    height: auto;
+  } */
 }
 
 @media (max-width: 1300px) {
-  .subContainerRight{
+  .subContainerRight {
+    gap: 32px;
+    justify-content: end;
+  }
+  /* .imageCard {
+    width: 20vw;
+    height: auto;
+  } */
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: calc(100% - 160px) !important;
+    /* border: 1px solid black; */
+  }
+
+  .subContainerRight {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
   }
+
+  .imageCard {
+    width: 27.604vw;
+    height: 24.219vw;
+  }
+}
+
+@media (max-width: 1024px) {
+  .descriptionCard {
+    max-width: 320px;
+  }
+}
+
+@media (max-width: 768px) {
+.sectionAboutUs{
+  margin: 92px 0;
+}
+
+  .subContainer {
+    flex-direction: column;
+  }
+
+  .subContainerContent {
+    /* margin-top: 96px; */
+    width: 35vw;
+    height: 10vw;
+  }
+
+  .subContainerTitleText{
+    font-size: 35px;
+    line-height:42px;
+  }
+
+  .subContainerRight{
+    /* margin-top: 10px; */
+  }
+
+  .subContainerRightContent {
+    margin-top: 5vw;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .imageCard {
+    /* display: none; */
+    width: 70vw;
+    height: 35vw;
+  }
+
+  .subContainerLeft {
+    /* height: 2vw; */
+  }
+
+  .descriptionCard {
+    max-width: 100vw;
+  }
+
 }

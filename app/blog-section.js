@@ -20,7 +20,7 @@ export default function Blog() {
                             Latest Blogs
                         </div>
                     </div>
-                    <div className={`col-xxl-12 col-lg-12 col-md-12 col-sm-12 col-12 ${blogStyles.subContainer}`}>
+                    <div className={`col-xxl-12vcol-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ${blogStyles.subContainer}`}>
                         <div className={`col-xxl-3 col-xl-3 col-lg-3 col-md-3 col-sm-3 col-3 ${blogStyles.subContainerLeft}`}>
                             <div className={blogStyles.subContainerContent}>
                                 <div className={blogStyles.subContainerTitleText}>

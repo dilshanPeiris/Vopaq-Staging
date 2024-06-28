@@ -7,7 +7,7 @@
   /* width: 83.34vw; */
   /* background-color: rgb(255, 0, 255); */
   /* height: 20vh; */
-  margin: 96px auto 96px auto;
+  margin: 96px auto 192px auto;
   /* display: flex; */
 }
 
@@ -124,7 +124,7 @@
   /* background: var(--Vopaq-colors-Aqua-white, #10a1a1); */
   /* width: 28.516vwvw; */
   /* max-width: 530px; */
-  height: 220px;
+  /* height: 220px; */
   padding: 32px;
   gap: 8px;
   overflow-y: scroll;
@@ -230,5 +230,27 @@
 @media (max-width: 1024px) {
   .subContainerLeft {
     width: 25vw;
+  }
+}
+
+@media (max-width: 575px) {
+  .subContainer {
+    flex-direction: column;
+  }
+
+  .subContainerContent {
+    width: max-content;
+    overflow-y: scroll;
+  }
+
+  .subContainerTitleText {
+    font-size: 35px;
+    line-height: 42px;
+  }
+
+  .subContainerLeft {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
   }
 }

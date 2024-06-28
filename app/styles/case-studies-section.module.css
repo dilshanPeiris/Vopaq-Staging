@@ -1,3 +1,7 @@
+.sectionCaseStudy {
+  margin: 96px 0;
+}
+
 .container {
   max-width: calc(100% - 320px) !important;
 }
@@ -88,11 +92,11 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  justify-content: flex-end;
+  justify-content: space-between;
 
   flex: 1 0 0;
   align-self: stretch;
-  gap: 62px;
+  /* gap: 62px; */
 }
 
 .caseStudyCardOne {
@@ -204,31 +208,156 @@
   line-height: 22.4px; /* 160% */
 }
 
-@media (max-width: 1540px) {
+@media (max-width: 1920px) {
   .subContainerLeft {
-    width: 31.25vw;
+    width: 20.26vw;
   }
   .subContainerRight {
-    flex-wrap: wrap;
-    max-height: 520px;
-    overflow-y: scroll;
-    /* justify-content: center; */
+    width: auto;
+    flex-wrap: nowrap;
+    justify-content: space-around;
   }
   .caseStudyCardOne .caseStudyCardTwo .caseStudyCardContent {
-    width: 530px;
-    height: 520px;
+    width: 23.438vw !important;
+    height: 22.917vw !important;
+  }
+}
+
+@media (max-width: 1540px) {
+  .subContainerLeft {
+    width: 19.26vw;
+  }
+  .subContainerRight {
+    width: auto;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  .caseStudyCardOne .caseStudyCardTwo .caseStudyCardContent {
+    width: 23.438vw !important;
+    height: 22.917vw !important;
   }
 }
 
 @media (max-width: 1400px) {
   .subContainerLeft {
-    width: 26.042vw;
+    width: 20.26vw;
   }
   .subContainerRight {
     width: auto;
+    flex-wrap: nowrap;
+    justify-content: space-between;
   }
   .caseStudyCardOne .caseStudyCardTwo .caseStudyCardContent {
-    width: 530px;
-    height: 520px;
+    width: 23.604vw !important;
+    height: 23.083vw !important;
+  }
+}
+
+@media (max-width: 1300px) {
+  .container {
+    max-width: calc(100% - 160px) !important;
+  }
+  .caseStudyCardIntroduction {
+    width: 20vw;
+  }
+
+  .CaseStudyTitle {
+    font-size: 25px;
+    line-height: 32px;
+  }
+
+  .subContainerRight {
+    width: auto;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: calc(100% - 160px) !important;
+  }
+
+  .subContainerRight {
+    flex-wrap: nowrap;
+    justify-content: end;
+    gap: 28px;
+    padding-left: 12px;
+  }
+
+  .caseStudyCardContent {
+    height: fit-content;
+  }
+
+  .caseStudyReviewDetails {
+    display: none;
+  }
+
+  .buttonOne {
+    width: 200px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: calc(100% - 160px) !important;
+    /* border: 1px solid black; */
+  }
+
+  .subContainerLeft {
+    width: 30.26vw;
+  }
+
+  .subContainerContent {
+    width: 35vw;
+  }
+
+  .subContainer {
+    /* height: 48.542vw; */
+  }
+
+  .subContainerRight {
+    /* flex-wrap: wrap; */
+    /* height: 48.542vw; */
+    /* justify-content: end; */
+    gap: 28px;
+    padding-left: 12px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .caseStudyCardOne,
+  .caseStudyCardTwo,
+  .caseStudyCardContent {
+    height: auto;
+    width: 40vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: calc(100% - 160px) !important;
+    /* border: 1px solid black; */
+  }
+
+  .subContainerRight {
+    flex-wrap: wrap;
+    justify-content: end;
+    gap: 28px;
+    padding-left: 12px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+  }
+
+  .caseStudyCardOne {
+    height: fit-content;
+    padding-right: 10px;
+    
+  }
+
+  .subContainerDescription {
+    padding-right: 30px;
   }
 }

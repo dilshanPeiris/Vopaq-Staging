@@ -1,4 +1,7 @@
 import { useState } from 'react';
+
+import 'bootstrap/dist/css/bootstrap.css';
+
 import contactFormStyles from './styles/contact-form.module.css';
 
 const ContactForm = () => {
@@ -26,7 +29,8 @@ const ContactForm = () => {
     };
 
     return (
-        <div className={contactFormStyles.formContainer}>
+
+        <div className={`container col-xxl-12 col-lg-12 col-md-12 col-sm-12 col-12 ${contactFormStyles.formContainer}`}>
             <div className={contactFormStyles.formTitle}>Have a project in mind?</div>
             <form className={contactFormStyles.formComponent} onSubmit={handleSubmit}>
                 <div className={contactFormStyles.formGroup}>

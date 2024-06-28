@@ -17,7 +17,7 @@ export default function AboutUs() {
 
 
     return (
-        <section>
+        <section className={aboutusStyles.sectionAboutUs}>
             <div className={`container ${aboutusStyles.mainContainer} ${aboutusStyles.container}`}>
                 <div className="row">
                     <div className={aboutusStyles.sectionTitle}>
@@ -26,7 +26,7 @@ export default function AboutUs() {
                         </div>
                     </div>
                     <div className={`col-xxl-12 col-lg-12 col-md-12 col-sm-12 col-12 ${aboutusStyles.subContainer}`}>
-                        <div className={`col-xxl-3 col-xl-2 col-lg-2 col-sm-2 col-2 ${aboutusStyles.subContainerLeft}`}>
+                        <div className={`col-xxl-3 col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2 ${aboutusStyles.subContainerLeft}`}>
                             <div className={aboutusStyles.subContainerContent}>
                                 <div className={aboutusStyles.subContainerTitleText}>
                                     Who We Are?
@@ -86,14 +86,14 @@ export default function AboutUs() {
 
 
                         </div>
-                        <div className={`col-xxl-9 col-xl-10 col-lg-10 col-sm-10 col-10 ${aboutusStyles.subContainerRight}`}>
+                        <div className={`col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-sm-9 col-9 ${aboutusStyles.subContainerRight}`}>
                             <div className={aboutusStyles.subContainerRightContent}>
-                                <div className={`col-xxl-6 col-xl-5 col-lg-4 col-sm-4 col-4 ${aboutusStyles.imageCard}`}>
+                                <div className={`col-xxl-6 col-xl-5 col-lg-4 col-md-4 col-sm-4 col-4 ${aboutusStyles.imageCard}`}>
 
                                     {/* <img src={aboutUsImage} /> */}
                                 </div>
 
-                                <div className={`col-xxl-6 col-xl-7 col-lg-8 col-sm-8 col-8 ${aboutusStyles.descriptionCard}`}>
+                                <div className={`col-xxl-6 col-xl-7 col-lg-12 col-md-12 col-sm-12 col-12 ${aboutusStyles.descriptionCard}`}>
                                     <div className={aboutusStyles.descriptionCardSummary}>
                                         At Vopaq, we drive success with customized strategic solutions. Through cutting-edge consulting, business development, and ongoing monitoring, we navigate the intricacies of the business world alongside you.
                                     </div>

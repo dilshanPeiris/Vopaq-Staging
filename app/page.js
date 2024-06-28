@@ -27,6 +27,9 @@ export default function HomePage() {
 
   return (
     <div className={indexStyles.mainContainer}>
+      
+
+
       <NavBar />
       <HeroSection />
       <Partner />
@@ -40,5 +43,6 @@ export default function HomePage() {
       <Inqury />
       <Footer />
     </div>
+
   );
 }

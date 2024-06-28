@@ -27,7 +27,7 @@
   height: 53.177vw;
   justify-content: flex-start;
   align-items: flex-end;
-  /* flex-shrink: 0; */
+  flex-shrink: 0;
   padding: 96px;
   border: 1px solid #000;
   background: linear-gradient(
@@ -204,5 +204,25 @@
 @media (max-width: 1920px) {
   .subContainerRight {
     /* width: 50vw; */
+  }
+}
+
+.subContainerLeft {
+  background-size: contain;
+}
+
+@media (max-width: 768px) {
+  .subContainerLeftTitleText {
+    font-size: 30px;
+    line-height: 33px;
+  }
+
+  .subContainerLeftDescriptionText {
+    font-size: 18px;
+    line-height: 29px;
+  }
+
+  .subContainerRight {
+    padding: 24px 32px;
   }
 }

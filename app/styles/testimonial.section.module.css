@@ -166,3 +166,18 @@
     max-width: 38vw;
   }
 }
+
+@media (max-width: 1024px) {
+  .container {
+    max-width: calc(100% - 160px) !important;
+    border: 1px solid black;
+  }
+
+  .subContainerLeft {
+    margin-bottom: 10vw;
+  }
+
+  .testimonyCardRowOne{
+    flex-wrap: wrap;
+  }
+}

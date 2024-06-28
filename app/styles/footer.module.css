@@ -165,3 +165,20 @@
   line-height: 19.2px; /* 120% */
   text-decoration: none;
 }
+
+@media (max-width: 768px) {
+  .container {
+    /* border: 1px solid black; */
+  }
+
+  .footer{
+    height: 100vw;
+  }
+
+  .footerCms{
+    display: none;
+  }
+  .footerUtility{
+    display: none;
+  }
+}
