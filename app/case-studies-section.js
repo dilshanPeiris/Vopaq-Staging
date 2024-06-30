@@ -29,7 +29,7 @@ export default function CaseStudies() {
                         </div>
                     </div>
                     <div className={`col-xxl-12 col-lg-12 col-md-12 col-sm-12 col-12 ${caseStudiesStyles.subContainer}`}>
-                        <div className={`col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-6 col-6 ${caseStudiesStyles.subContainerLeft}`}>
+                        <div className={`col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12 ${caseStudiesStyles.subContainerLeft}`}>
                             <div className={caseStudiesStyles.subContainerContent}>
                                 <div className={caseStudiesStyles.subContainerTitleText}>
                                     Real Success Stories
@@ -48,7 +48,7 @@ export default function CaseStudies() {
                             </div>
 
                         </div>
-                        <div className={`col-xxl-9 col-xl-9 col-lg-9 col-md-6 col-sm-6 col-6  ${caseStudiesStyles.subContainerRight}`}>
+                        <div className={`col-xxl-9 col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12  ${caseStudiesStyles.subContainerRight}`}>
                             <div className={`col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12  ${caseStudiesStyles.caseStudyCardOne}`}>
 
                                 <div className={caseStudiesStyles.caseStudyCardContent}>

@@ -2,8 +2,13 @@
   max-width: calc(100% - 0px) !important;
 }
 
+.row {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
 .mainContainer {
-  width: 100vw;
+  /* width: 100vw; */
   height: fit-content;
   display: flex;
   justify-content: center;
@@ -170,12 +175,41 @@
     margin-top: 20vw;
   }
 
-  .titleTextPartOne {
-    font-size: 70px;
-    line-height: 90px;
-  }
+  .titleTextPartOne,
   .titleTextPartTwo {
     font-size: 70px;
     line-height: 90px;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    max-width: calc(100% - 24px) !important;
+  }
+
+  .titleText {
+    padding: 32px;
+  }
+
+  .titleTextPartOne,
+  .titleTextPartTwo {
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  .heroDescriptionText {
+    font: size 14px;
+    line-height: 30px;
+  }
+
+  .heroButtons {
+    justify-content: space-between;
+  }
+
+  .buttonOne,
+  .buttonTwo {
+    max-width: 120px;
+    font-size: 12px;
+    padding: 12px 2px;
   }
 }

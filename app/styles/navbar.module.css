@@ -172,6 +172,10 @@
 }
 
 @media (max-width: 1900px) {
+  .navbar {
+    width: -webkit-fill-available;
+  }
+
   .socialLinks {
     display: none;
   }
@@ -237,5 +241,25 @@
 
   .navbarToggle {
     display: block;
+  }
+}
+
+@media (max-width: 575px) {
+  .searchGetInTouchBtns {
+    /* display: none; */
+  }
+
+  .navbarToggle {
+    display: block;
+  }
+}
+
+@media (max-width: 575px) {
+  .navbar {
+    padding: 10px 12px;
+  }
+
+  .navbarRight {
+    width: auto;
   }
 }

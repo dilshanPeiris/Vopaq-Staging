@@ -319,7 +319,7 @@
   .subContainerRight {
     /* flex-wrap: wrap; */
     /* height: 48.542vw; */
-    /* justify-content: end; */
+    justify-content: flex-start;
     gap: 28px;
     padding-left: 12px;
     overflow-y: scroll;
@@ -332,32 +332,87 @@
   .caseStudyCardTwo,
   .caseStudyCardContent {
     height: auto;
-    width: 40vw;
+    width: 38vw;
+    background-size: contain;
   }
 }
 
 @media (max-width: 768px) {
   .container {
     max-width: calc(100% - 160px) !important;
+    height: 65vw;
     /* border: 1px solid black; */
   }
 
+  .subContainerLeft {
+    height: 55vw;
+  }
+
   .subContainerRight {
-    flex-wrap: wrap;
-    justify-content: end;
+    /* flex-wrap: wrap; */
+    justify-content: start;
     gap: 28px;
     padding-left: 12px;
+    height: 55vw;
     overflow-y: scroll;
     overflow-x: hidden;
   }
 
   .caseStudyCardOne {
     height: fit-content;
-    padding-right: 10px;
-    
+    /* padding-right: 10px; */
   }
 
   .subContainerDescription {
     padding-right: 30px;
+  }
+
+  .caseStudyCardIntroduction {
+    width: -webkit-fill-available;
+  }
+}
+
+@media (max-width: 575px) {
+  .caseStudiesMainContainer {
+    margin: 96px auto 96px auto;
+  }
+
+  .subContainer {
+    flex-direction: column;
+  }
+
+  .subContainerContent {
+    max-width: 70vw;
+    width: 100vw;
+  }
+
+  .subContainerLeft {
+    height: fit-content;
+  }
+
+  .subContainerRight {
+    padding-top: 32px;
+    padding-left: 0;
+  }
+
+  .caseStudyCardOne,
+  .caseStudyCardTwo,
+  .caseStudyCardContent,
+  .caseStudyCardIntroduction {
+    height: auto;
+    width: -webkit-fill-available;
+    background-size: contain;
+  }
+
+  .caseStudyCardContent {
+    padding: 24px 48px;
+  }
+}
+
+
+
+@media (max-width: 320px) {
+  .container {
+    max-width: calc(100% - 24px) !important;
   }
 }

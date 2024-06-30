@@ -177,7 +177,13 @@
     margin-bottom: 10vw;
   }
 
-  .testimonyCardRowOne{
+  .testimonyCardRowOne {
     flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    max-width: calc(100% - 24px) !important;
   }
 }

@@ -1,3 +1,5 @@
+import Head from "next/head";
+
 import LikeButton from "./like-button";
 import NavBar from "./navbar";
 import HeroSection from "./hero-section";
@@ -26,8 +28,17 @@ export default function HomePage() {
 
 
   return (
+
+
     <div className={indexStyles.mainContainer}>
+
       
+        <Head>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        </Head>
+      
+
 
 
       <NavBar />

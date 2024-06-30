@@ -233,9 +233,17 @@
   }
 }
 
+@media (max-width: 768px) {
+  .subContainerContent {
+    min-width: 230px;
+  }
+}
+
 @media (max-width: 575px) {
   .subContainer {
     flex-direction: column;
+    height: fit-content;
+    gap: 0;
   }
 
   .subContainerContent {
@@ -252,5 +260,33 @@
     width: 50vw;
     display: flex;
     flex-direction: column;
+    height: fit-content;
+    margin-bottom: 32px;
+  }
+
+  .subContainerRight {
+    width: -webkit-fill-available;
+    height: 40vw;
+  }
+
+  .sliderContent {
+    justify-content: center;
+    width: -webkit-fill-available;
+    gap: 32px;
+    grid-gap: 32px;
+  }
+
+  .sliderServiceCard {
+    width: -webkit-fill-available;
   }
 }
+
+@media (max-width: 320px) {
+  .container {
+    max-width: calc(100% - 24px) !important;
+  }
+  .subContainerContent {
+    width: -webkit-fill-available;
+  }
+}
+

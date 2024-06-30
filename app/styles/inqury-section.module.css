@@ -188,7 +188,7 @@
 
   .subContainerRight {
     width: fit-content;
-    /* height: ; */
+    height: fit-content;
   }
 
   .subContainer {
@@ -202,3 +202,24 @@
     padding: 8px 10px;
   }
 }
+
+@media (max-width: 575px) {
+  .subContainerRight {
+    height: fit-content;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    max-width: calc(100% - 24px) !important;
+  }
+
+  .subContainerRight {
+    height: fit-content;
+  }
+
+  .subContainerInformationCard {
+    width: -webkit-fill-available;
+  }
+}
+

@@ -41,7 +41,7 @@ export default function WhyChooseUS() {
             <div className={`container ${whyChooseUsStyles.mainContainer} ${whyChooseUsStyles.container}`}>
 
                 <div className="row">
-                    <div className="col-xxl-12 col-lg-12 col-md-12 col-sm-12 col-12 d-flex p-0 me-1">
+                    <div className={`col-xxl-12 col-lg-12 col-md-12 col-sm-12 col-12 d-flex p-0 me-1 ${whyChooseUsStyles.subContainer}`}>
                         <div className={`col-xxl-6 col-lg-7 col-md-7 col-sm-7 col-7 ${whyChooseUsStyles.subContainerLeft}`}>
                             <div className={whyChooseUsStyles.subContainerLeftContent}>
                                 <div className={whyChooseUsStyles.subContainerLeftTitleText}>
@@ -65,7 +65,7 @@ export default function WhyChooseUS() {
 
                             <div className={whyChooseUsStyles.featureCards}>
                                 <Slider {...settings}>
-                                    <div className={whyChooseUsStyles.featureCard}>
+                                <div className={whyChooseUsStyles.featureCard}>
                                         <div className={whyChooseUsStyles.featureIcon}>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
                                                 <path d="M22.5 13V9C22.5 4 20.5 2 15.5 2H9.5C4.5 2 2.5 4 2.5 9V15C2.5 20 4.5 22 9.5 22H13.5" stroke="#19191A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />

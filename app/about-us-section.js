@@ -86,7 +86,7 @@ export default function AboutUs() {
 
 
                         </div>
-                        <div className={`col-xxl-9 col-xl-9 col-lg-9 col-md-9 col-sm-9 col-9 ${aboutusStyles.subContainerRight}`}>
+                        <div className={`col-xxl-9 col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12 ${aboutusStyles.subContainerRight}`}>
                             <div className={aboutusStyles.subContainerRightContent}>
                                 <div className={`col-xxl-6 col-xl-5 col-lg-4 col-md-4 col-sm-4 col-4 ${aboutusStyles.imageCard}`}>
 
