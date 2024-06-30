@@ -125,6 +125,7 @@
   /* width: 28.516vwvw; */
   /* max-width: 530px; */
   /* height: 220px; */
+  height: 14vw;
   padding: 32px;
   gap: 8px;
   overflow-y: scroll;
@@ -159,10 +160,16 @@
   max-width: 530px;
 }
 
-@media (max-width: 1900px) {
+@media (max-width: 1920px) {
   .subContainerLeft {
     width: 25vw;
   }
+
+  .subContainerRight {
+    display: flex;
+    justify-content: flex-end;
+  }
+
   .sliderContent {
     grid-template-columns: auto auto;
     width: 55vw;
@@ -266,7 +273,7 @@
 
   .subContainerRight {
     width: -webkit-fill-available;
-    height: 40vw;
+    height: 60vw;
   }
 
   .sliderContent {
@@ -278,6 +285,7 @@
 
   .sliderServiceCard {
     width: -webkit-fill-available;
+    height: 35vw;
   }
 }
 
@@ -285,8 +293,54 @@
   .container {
     max-width: calc(100% - 24px) !important;
   }
+
+  .mainContainer {
+    margin: 32px auto 96px auto;
+  }
+
+  .sectionTitle {
+    font-size: 12px;
+    line-height: 18.8px;
+    padding-bottom: 8px;
+  }
+
+  .subContainerLeft {
+    width: -webkit-fill-available;
+  }
+
+  .subContainerTitleText {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .subContainerDescription {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 24px;
+  }
+
   .subContainerContent {
     width: -webkit-fill-available;
   }
-}
 
+  .buttonOne {
+    font-size: 12px;
+    padding: 12px 24px;
+  }
+
+  .sliderServiceCard {
+    padding: 12px 24px;
+    height: 45vw;
+  }
+
+  .ServiceTitle {
+    font-size: 18px;
+    line-height: 30px;
+    font-family: general sans;
+  }
+
+  .ServiceDescription{
+    font-size: 14px;
+    line-height: 21px;
+  }
+}

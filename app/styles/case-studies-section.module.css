@@ -409,10 +409,58 @@
   }
 }
 
-
-
 @media (max-width: 320px) {
   .container {
     max-width: calc(100% - 24px) !important;
+  }
+
+  .caseStudiesMainContainer {
+    height: 46vh;
+  }
+
+  .subContainerContent {
+    max-width: 85vw;
+    height: fit-content;
+  }
+  .sectionTitle {
+    font-size: 12px;
+    line-height: 18.8px;
+  }
+
+  .subContainerContent {
+    gap: 0;
+  }
+
+  .subContainerTitleText {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .subContainerDescription {
+    font-size: 14px;
+    line-height: 21px;
+    padding-top: 12px;
+    margin-bottom: 24px;
+  }
+
+  .buttonOne {
+    font-size: 12px;
+    padding: 12px 24px;
+  }
+
+  .CaseStudyTitle {
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .CaseStudyDescription {
+    font-size: 14px;
+    line-height: 21px;
+    padding-top: 12px;
+  }
+
+  .caseStudyButtonOne {
+    font-size: 12px;
+    padding: 12px 24px;
   }
 }

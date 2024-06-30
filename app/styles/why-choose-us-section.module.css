@@ -268,7 +268,6 @@
     width: -webkit-fill-available;
     height: 100vw;
     padding: 64px 32px 32px 32px;
-  
   }
 
   .featureCards {
@@ -277,15 +276,63 @@
     margin-top: 48px;
   }
 
-  .featureCard{
+  .featureCard {
     /* width: 80vw !important; */
   }
 }
 
-
-
 @media (max-width: 320px) {
   .container {
-    max-width: calc(100% - 24px) !important;
+    max-width: calc(100% - 0px) !important;
+  }
+
+  .subContainerLeft {
+    height: 60vw;
+  }
+
+  .subContainerLeftTitleText {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .subContainerLeftDescriptionText {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .subContainerRight {
+    height: 30vh;
+  }
+
+  .sectionTitle {
+    width: 50vw;
+    font-size: 12px;
+    line-height: 18.8px;
+  }
+
+  .subContainerDescription {
+    font-size: 14px;
+    line-height: 21px;
+    padding-top: 12px;
+  }
+
+  .featureCards {
+    margin-top: 24px;
+    height: 15vh;
+  }
+
+  .featureCard {
+    padding: 24px 12px;
+  }
+
+  .featureTitle {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .featureDescription,
+  .featurePointDescription {
+    font-size: 14px;
+    line-height: 21px;
   }
 }

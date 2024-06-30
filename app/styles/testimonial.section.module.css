@@ -170,7 +170,7 @@
 @media (max-width: 1024px) {
   .container {
     max-width: calc(100% - 160px) !important;
-    border: 1px solid black;
+    /* border: 1px solid black; */
   }
 
   .subContainerLeft {
@@ -185,5 +185,33 @@
 @media (max-width: 320px) {
   .container {
     max-width: calc(100% - 24px) !important;
+  }
+
+  .testimonialSection {
+    margin-top: 96px;
+  }
+
+  .mainContainer {
+    height: fit-content;
+  }
+
+  .subContainerLeft {
+    height: fit-content;
+    align-items: flex-start;
+    padding: 24px 0;
+
+  }
+
+  .subContainerLeftTitle {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+.subContainerLeftDescription{
+  text-align: left;
+}
+
+  .testimonyCard {
+    display: none;
   }
 }

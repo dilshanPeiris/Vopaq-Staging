@@ -350,10 +350,25 @@
   }
 }
 
-
-
 @media (max-width: 320px) {
   .container {
     max-width: calc(100% - 24px) !important;
+    height: 50vh;
+  }
+
+  .subContainer {
+    height: 40vh;
+  }
+
+  .subContainerLeft {
+    height: 19vh;
+  }
+
+  .subContainerRight {
+    height: 40vh;
+  }
+
+  .sliderContent {
+    height: 25vh;
   }
 }

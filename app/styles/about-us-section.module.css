@@ -182,12 +182,13 @@
     justify-content: space-evenly;
   }
   .subContainerRightContent {
-    gap: 32px;
-    justify-content: space-evenly;
+    /* gap: 32px; */
+    justify-content: flex-end;
   }
 
   .descriptionCard {
-    max-width: 400px;
+    /* max-width: 400px; */
+    width: -webkit-fill-available;
   }
 }
 
@@ -310,8 +311,6 @@
     min-width: -webkit-fill-available;
   }
 }
-
-
 
 @media (max-width: 320px) {
   .container {
