@@ -316,4 +316,40 @@
   .container {
     max-width: calc(100% - 24px) !important;
   }
+
+  .sectionTitle {
+    font-size: 12px;
+    line-height: 18.8px;
+    padding-bottom: 8px;
+  }
+
+  .subContainerContent {
+    padding-top: 12px;
+    width: 50vw;
+  }
+
+  .subContainerTitleText {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .subContainerRightContent {
+    margin-top: 24px;
+    gap: 32px;
+  }
+
+  .descriptionCard{
+    height: 75vh;
+  }
+
+  .descriptionCardSummary {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 24px;
+  }
+
+  .buttonOne {
+    font-size: 12px;
+    padding: 12px 24px;
+  }
 }

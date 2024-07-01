@@ -52,7 +52,7 @@ export default function HomePage() {
       <Blog />
       <AboutUs />
       <Inqury />
-      <Footer />
+      {/* <Footer /> */}
     </div>
 
   );

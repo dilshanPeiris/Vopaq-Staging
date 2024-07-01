@@ -351,24 +351,84 @@
 }
 
 @media (max-width: 320px) {
+  .sectionBlog {
+    height: 100vh;
+  }
   .container {
     max-width: calc(100% - 24px) !important;
-    height: 50vh;
+    height: 100vh;
+  }
+
+  .sectionTitle {
+    font-size: 12px;
+    line-height: 18.8px;
+    padding-bottom: 8px;
   }
 
   .subContainer {
-    height: 40vh;
+    height: 100vh;
+  }
+
+  .subContainerContent {
+    height: 35vh;
+    padding-top: 8px;
+  }
+
+  .subContainerTitleText {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 8px;
+  }
+
+  .subContainerDescription {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 24px;
   }
 
   .subContainerLeft {
-    height: 19vh;
-  }
-
-  .subContainerRight {
     height: 40vh;
   }
 
+  .subContainerRight {
+    height: 60vh;
+  }
+
   .sliderContent {
-    height: 25vh;
+    height: 46vh;
+  }
+
+  .blogCard {
+    gap: 8px;
+  }
+
+  .blogDay {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .blogCategory {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .blogTitle {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .blogDescription {
+    font: size 12px;
+    line-height: 16px;
+  }
+
+  .buttonOne {
+    font-size: 12px;
+    padding: 12px 24px;
+  }
+
+  .blogButtonOne {
+    font-size: 12px;
+    padding: 12px 24px;
   }
 }

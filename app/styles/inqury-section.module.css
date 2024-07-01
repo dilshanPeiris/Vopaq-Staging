@@ -214,6 +214,26 @@
     max-width: calc(100% - 24px) !important;
   }
 
+  .subContainerSubTitleText {
+    font-size: 12px;
+    padding: 4px 12px;
+    margin-bottom: 8px;
+  }
+
+  .subContainerTitleText {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .subContainerTitleInformationCard {
+    font-size: 12px;
+    padding: 8px 0px;
+  }
+
+  .subContainerLeft {
+    padding-top: 4px;
+  }
+
   .subContainerRight {
     height: fit-content;
   }
@@ -221,5 +241,17 @@
   .subContainerInformationCard {
     width: -webkit-fill-available;
   }
-}
 
+  .subContainerDescription {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 24px;
+    margin-top: 0;
+  }
+
+  .buttonOne,
+  .buttonTwo {
+    font-size: 12px;
+    padding: 8px 12px;
+  }
+}

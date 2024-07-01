@@ -373,12 +373,16 @@
 }
 
 @media (max-width: 575px) {
+  .sectionCaseStudy {
+    height: 50vh;
+  }
   .caseStudiesMainContainer {
     margin: 96px auto 96px auto;
   }
 
   .subContainer {
     flex-direction: column;
+    height: 90vh;
   }
 
   .subContainerContent {
@@ -410,6 +414,9 @@
 }
 
 @media (max-width: 320px) {
+  .sectionCaseStudy {
+    height: 100vh;
+  }
   .container {
     max-width: calc(100% - 24px) !important;
   }
@@ -446,6 +453,14 @@
   .buttonOne {
     font-size: 12px;
     padding: 12px 24px;
+  }
+
+  .subContainerRight {
+    height: fit-content;
+    margin-top: 32px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
   }
 
   .CaseStudyTitle {
