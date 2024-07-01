@@ -182,9 +182,15 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 375px) {
   .container {
     max-width: calc(100% - 24px) !important;
+  }
+  .testimonyCards {
+    margin-top: 20vh;
+  }
+  .subContainer {
+    height: 65vh;
   }
 
   .testimonialSection {
@@ -196,10 +202,11 @@
   }
 
   .subContainerLeft {
-    height: fit-content;
+    height: 50vw;
     align-items: flex-start;
     padding: 24px 0;
-
+    margin-bottom: 0;
+    /* background: #c91111; */
   }
 
   .subContainerLeftTitle {
@@ -207,11 +214,139 @@
     line-height: 36px;
   }
 
-.subContainerLeftDescription{
-  text-align: left;
-}
+  .subContainerLeftDescription {
+    text-align: left;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 24px;
+  }
 
   .testimonyCard {
+    /* display: none; */
+    max-width: -webkit-fill-available;
+  }
+
+  .subContainerRight {
+    height: 45vh;
+    padding-top: 30vh;
+  }
+
+  .subContainerRight::-webkit-scrollbar {
     display: none;
+  }
+
+  .testimonyReviewDetails {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .testimonyInfo {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .testimonyCardRowOne {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .testimonyCardRowTwo {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .testimonyCardRowThree {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+}
+
+@media (max-width: 320px) {
+  .container {
+    max-width: calc(100% - 24px) !important;
+  }
+
+  .subContainer {
+    height: 62vh;
+    /* background: #c51717; */
+  }
+
+  .testimonialSection {
+    margin-top: 96px;
+  }
+
+  .mainContainer {
+    height: fit-content;
+  }
+
+  .subContainerLeft {
+    height: 50vw;
+    align-items: flex-start;
+    padding: 24px 0;
+    margin-bottom: 0;
+    /* background: #c91111; */
+  }
+
+  .subContainerLeftTitle {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .subContainerLeftDescription {
+    text-align: left;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 24px;
+  }
+
+  .testimonyCard {
+    /* display: none; */
+    max-width: -webkit-fill-available;
+  }
+
+  .subContainerRight {
+    height: 45vh;
+    padding-top: 30vh;
+  }
+
+  .subContainerRight::-webkit-scrollbar {
+    display: none;
+  }
+
+  .testimonyCards {
+    display: flex !important;
+    /* flex-direction: column; */
+    flex-wrap: wrap !important;
+  }
+
+  .testimonyReviewDetails {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .testimonyInfo {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .testimonyCardRowOne {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .testimonyCardRowTwo {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .testimonyCardRowThree {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
   }
 }

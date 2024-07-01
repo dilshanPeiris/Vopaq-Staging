@@ -281,7 +281,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 375px), (max-width: 320px) {
   .container {
     max-width: calc(100% - 0px) !important;
   }
@@ -336,5 +336,15 @@
   .featurePointDescription {
     font-size: 14px;
     line-height: 21px;
+  }
+}
+
+@media (max-width: 375px) {
+  .subContainerLeft {
+    height: 50vw;
+  }
+
+  .subContainerRight {
+    height: 80vh;
   }
 }

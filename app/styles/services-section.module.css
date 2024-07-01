@@ -310,7 +310,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 375px), (max-width: 320px) {
   .container {
     max-width: calc(100% - 24px) !important;
   }
