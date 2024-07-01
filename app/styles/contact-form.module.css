@@ -155,3 +155,23 @@
     width: -webkit-fill-available;
   }
 }
+
+@media (max-width: 320px) {
+  .formContainer {
+    width: 85vw;
+    padding: 24px;
+  }
+
+  .formGroup {
+    width: 70vw;
+  }
+
+  .formInput {
+    width: 32vw;
+  }
+
+  .button {
+    font-size: 12px;
+    padding: 12px 24px;
+  }
+}
