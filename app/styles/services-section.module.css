@@ -161,6 +161,12 @@
 }
 
 @media (max-width: 1920px) {
+  .subContainer {
+    /* flex-direction: column; */
+    height: fit-content;
+    gap: 0;
+  }
+
   .subContainerLeft {
     width: 25vw;
   }
@@ -173,6 +179,10 @@
   .sliderContent {
     grid-template-columns: auto auto;
     width: 55vw;
+  }
+
+  .sliderServiceCard {
+    height: 12vh;
   }
 
   .sliderServiceCard .ServiceTitle .ServiceDescription {
@@ -196,6 +206,7 @@
 
   .sliderServiceCard {
     width: 20vw;
+    height: 15vh;
   }
 }
 
@@ -209,6 +220,7 @@
   }
   .sliderServiceCard {
     width: 20vw;
+    height: 15vh;
   }
 }
 
@@ -231,6 +243,7 @@
   }
   .sliderServiceCard {
     width: 30vw;
+    height: 15vh;
   }
 }
 
@@ -339,7 +352,7 @@
     font-family: general sans;
   }
 
-  .ServiceDescription{
+  .ServiceDescription {
     font-size: 14px;
     line-height: 21px;
   }
