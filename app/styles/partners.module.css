@@ -24,6 +24,10 @@
   overflow-x: scroll;
 }
 
+.partnerList::-webkit-scrollbar {
+  display: none;
+}
+
 .listItem {
   min-width: 100px;
 }

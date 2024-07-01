@@ -95,6 +95,10 @@
   overflow-x: hidden;
 }
 
+.subContainerRight::-webkit-scrollbar {
+  display: none;
+}
+
 .sliderContent {
   /* background-color: rgb(3, 30, 150);
   width: 70vw; */
@@ -130,6 +134,10 @@
   gap: 8px;
   overflow-y: scroll;
   overflow-x: hidden;
+}
+
+.sliderServiceCard::-webkit-scrollbar {
+  display: none;
 }
 
 .ServiceTitle {
@@ -182,7 +190,7 @@
   }
 
   .sliderServiceCard {
-    height: 12vh;
+    height: 20vh;
   }
 
   .sliderServiceCard .ServiceTitle .ServiceDescription {
