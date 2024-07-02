@@ -30,7 +30,7 @@ export default function HomePage() {
   return (
 
 
-    <div className={indexStyles.mainContainer}>
+    <div className={indexStyles.mainPageContainer}>
 
       
         <Head>

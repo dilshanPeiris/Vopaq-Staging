@@ -249,24 +249,27 @@
     display: flex;
     flex-direction: column;
     gap: 32px;
+    background: #f15454;
   }
 
   .testimonyCardRowTwo {
     display: flex;
     flex-direction: column;
     gap: 32px;
+    background: #30b8a6;
   }
 
   .testimonyCardRowThree {
     display: flex;
     flex-direction: column;
     gap: 32px;
+    background: #3cdd0b;
   }
 }
 
 @media (max-width: 320px) {
   .container {
-    max-width: calc(100% - 24px) !important;
+    max-width: calc(100% - 0px) !important;
   }
 
   .subContainer {
@@ -308,7 +311,7 @@
   }
 
   .subContainerRight {
-    height: 45vh;
+    height: 30vh;
     padding-top: 30vh;
   }
 
@@ -318,8 +321,10 @@
 
   .testimonyCards {
     display: flex !important;
-    /* flex-direction: column; */
-    flex-wrap: wrap !important;
+    flex-direction: column;
+    /* flex-wrap: wrap !important; */
+    margin-top: 2vh;
+    height: 60vh;
   }
 
   .testimonyReviewDetails {
@@ -336,17 +341,20 @@
     display: flex;
     flex-direction: column;
     gap: 32px;
+    background: #f15454;
   }
 
   .testimonyCardRowTwo {
     display: flex;
     flex-direction: column;
     gap: 32px;
+    background: #30b8a6;
   }
 
   .testimonyCardRowThree {
     display: flex;
     flex-direction: column;
     gap: 32px;
+    background: #3cdd0b;
   }
 }
