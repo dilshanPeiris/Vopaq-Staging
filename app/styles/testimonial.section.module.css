@@ -182,12 +182,85 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 768px) {
+  .testimonyCards {
+    /* margin-top: 50vh; */
+    height: 40vh;
+  }
+  .subContainer {
+    height: 40vh;
+  }
+
+  .testimonialSection {
+    margin-top: 96px;
+    height: 90vh;
+  }
+
+  .mainContainer {
+    height: 90vh;
+  }
+  .subContainerLeftTitle {
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .subContainerLeftDescription {
+    text-align: left;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 8px;
+    text-align: center;
+  }
+
+  .subContainerRight {
+    height: 40vh;
+    align-items: flex-start;
+  }
+
+  .testimonyCard {
+    /* display: none; */
+    max-width: -webkit-fill-available;
+  }
+
+  .testimonyReviewDetails {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .testimonyInfo {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .testimonyCardRowOne {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    /* background: #f15454; */
+  }
+
+  .testimonyCardRowTwo {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    /* background: #30b8a6; */
+  }
+
+  .testimonyCardRowThree {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    /* background: #3cdd0b; */
+  }
+}
+
+@media (max-width: 425px), (max-width: 375px) {
   .container {
     max-width: calc(100% - 24px) !important;
   }
   .testimonyCards {
-    margin-top: 20vh;
+    /* margin-top: 50vh; */
+    height: 40vh;
   }
   .subContainer {
     height: 65vh;
@@ -195,10 +268,11 @@
 
   .testimonialSection {
     margin-top: 96px;
+    height: 90vh;
   }
 
   .mainContainer {
-    height: fit-content;
+    height: 90vh;
   }
 
   .subContainerLeft {
@@ -206,19 +280,22 @@
     align-items: flex-start;
     padding: 24px 0;
     margin-bottom: 0;
+    text-align: center;
     /* background: #c91111; */
   }
 
   .subContainerLeftTitle {
     font-size: 24px;
     line-height: 36px;
+    width: -webkit-fill-available;
   }
 
   .subContainerLeftDescription {
-    text-align: left;
+    text-align: center;
     font-size: 14px;
     line-height: 21px;
     margin-bottom: 24px;
+    width: -webkit-fill-available;
   }
 
   .testimonyCard {
@@ -227,8 +304,8 @@
   }
 
   .subContainerRight {
-    height: 45vh;
-    padding-top: 30vh;
+    /* height: 50vh; */
+    padding-top: 0;
   }
 
   .subContainerRight::-webkit-scrollbar {
@@ -249,21 +326,21 @@
     display: flex;
     flex-direction: column;
     gap: 32px;
-    background: #f15454;
+    /* background: #f15454; */
   }
 
   .testimonyCardRowTwo {
     display: flex;
     flex-direction: column;
     gap: 32px;
-    background: #30b8a6;
+    /* background: #30b8a6; */
   }
 
   .testimonyCardRowThree {
     display: flex;
     flex-direction: column;
     gap: 32px;
-    background: #3cdd0b;
+    /* background: #3cdd0b; */
   }
 }
 
@@ -273,7 +350,7 @@
   }
 
   .subContainer {
-    height: 62vh;
+    height: 90vh;
     /* background: #c51717; */
   }
 
@@ -282,7 +359,7 @@
   }
 
   .mainContainer {
-    height: fit-content;
+    height: 90vh;
   }
 
   .subContainerLeft {
@@ -311,8 +388,9 @@
   }
 
   .subContainerRight {
-    height: 30vh;
-    padding-top: 30vh;
+    /* height: 20vh; */
+    padding-top: 0;
+    /* background: #5acc3786; */
   }
 
   .subContainerRight::-webkit-scrollbar {
@@ -323,8 +401,9 @@
     display: flex !important;
     flex-direction: column;
     /* flex-wrap: wrap !important; */
-    margin-top: 2vh;
-    height: 60vh;
+    /* margin-top: 2vh; */
+    margin-top: 0;
+    /* height: 60vh; */
   }
 
   .testimonyReviewDetails {
@@ -341,20 +420,20 @@
     display: flex;
     flex-direction: column;
     gap: 32px;
-    background: #f15454;
+    /* background: #f15454; */
   }
 
   .testimonyCardRowTwo {
     display: flex;
     flex-direction: column;
     gap: 32px;
-    background: #30b8a6;
+    /* background: #30b8a6; */
   }
 
   .testimonyCardRowThree {
     display: flex;
     flex-direction: column;
     gap: 32px;
-    background: #3cdd0b;
+    /* background: #3cdd0b; */
   }
 }

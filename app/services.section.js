@@ -16,7 +16,7 @@ export default function Services() {
 
 
     return (
-        <section>
+        <section className={serviceStyles.sectionServices}>
             <div className={`container ${serviceStyles.mainContainer} ${serviceStyles.container}`}>
                 <div className="row">
                     <div className={`col-xxl-12 col-lg-12 col-md-12 col-sm-12 col-12 ${serviceStyles.sectionTitle}`}>

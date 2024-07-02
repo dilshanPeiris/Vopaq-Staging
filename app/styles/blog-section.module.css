@@ -320,6 +320,57 @@
     line-height: 33px;
     text-align: left;
   }
+
+  .sectionTitle {
+    font-size: 12px;
+    line-height: 18.8px;
+    padding-bottom: 8px;
+  }
+
+  .subContainerTitleText {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 8px;
+  }
+
+  .subContainerDescription {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 24px;
+  }
+
+  .blogCard {
+    gap: 8px;
+  }
+  .blogDay {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .blogCategory {
+    font-size: 10px;
+    line-height: 18px;
+  }
+
+  .blogTitle {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .blogDescription {
+    font: size 12px;
+    line-height: 16px;
+  }
+
+  .buttonOne {
+    font-size: 12px;
+    padding: 12px 24px;
+  }
+
+  .blogButtonOne {
+    font-size: 12px;
+    padding: 12px 24px;
+  }
 }
 
 @media (max-width: 575px) {
@@ -341,7 +392,7 @@
   }
   .sliderContent {
     padding-left: 0;
-    height: 90vw;
+    height: fit-content;
     /* gap: 64px; */
   }
 
@@ -350,7 +401,68 @@
   }
 }
 
+@media (max-width: 425px), (max-width: 375px) {
+  .container {
+    max-width: calc(100% - 24px) !important;
+  }
+
+  .subContainerContent {
+    height: 45vw;
+  }
+
+  .sectionTitle {
+    font-size: 12px;
+    line-height: 18.8px;
+    padding-bottom: 8px;
+  }
+
+  .subContainerTitleText {
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 8px;
+  }
+
+  .subContainerDescription {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 24px;
+  }
+
+  .blogDay {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .blogCategory {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .blogTitle {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .blogDescription {
+    font: size 12px;
+    line-height: 16px;
+  }
+
+  .buttonOne {
+    font-size: 12px;
+    padding: 12px 24px;
+  }
+
+  .blogButtonOne {
+    font-size: 12px;
+    padding: 12px 24px;
+  }
+}
+
 @media (max-width: 320px) {
+  .container {
+    max-width: calc(100% - 46px) !important;
+  }
   .sectionBlog {
     height: 100vh;
   }
@@ -408,7 +520,7 @@
   }
 
   .blogCategory {
-    font-size: 12px;
+    font-size: 10px;
     line-height: 18px;
   }
 

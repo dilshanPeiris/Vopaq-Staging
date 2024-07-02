@@ -7,6 +7,13 @@ body {
 
 @media (max-width: 2560px) {
   .mainPageContainer {
+    max-width: calc(100% - 160px) !important;
     overflow-x: hidden;
+    /* background: #d40e0e; */
   }
+}
+
+
+.mainPageContainer::-webkit-scrollbar {
+  display: none;
 }

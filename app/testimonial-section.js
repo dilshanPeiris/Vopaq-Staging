@@ -58,7 +58,7 @@ export default function Testimonial() {
 
                                     <div className={TestimonialStyles.testimonyCardRowOne}>
 
-                                        <div className={`col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12 ${TestimonialStyles.testimonyCard}`}>
+                                        <div className={`col-xxl-5 col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12 ${TestimonialStyles.testimonyCard}`}>
                                             <div className={TestimonialStyles.testimonyInfo}>
                                                 <div className={TestimonialStyles.testimonyReviewerProfileImage}>
 
@@ -76,7 +76,7 @@ export default function Testimonial() {
                                                 We handle the entire renting process, from screening tenants to signing leases and collecting rent.
                                             </div>
                                         </div>
-                                        <div className={`col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12 ${TestimonialStyles.testimonyCard}`}>
+                                        <div className={`col-xxl-5 col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12 ${TestimonialStyles.testimonyCard}`}>
                                             <div className={TestimonialStyles.testimonyInfo}>
                                                 <div className={TestimonialStyles.testimonyReviewerProfileImage}>
 
@@ -119,7 +119,7 @@ export default function Testimonial() {
 
                                     </div>
                                     <div className={TestimonialStyles.testimonyCardRowThree}>
-                                        <div className={`col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12 ${TestimonialStyles.testimonyCard}`}>
+                                        <div className={`col-xxl-5 col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12 ${TestimonialStyles.testimonyCard}`}>
                                             <div className={TestimonialStyles.testimonyInfo}>
                                                 <div className={TestimonialStyles.testimonyReviewerProfileImage}>
 
@@ -137,7 +137,7 @@ export default function Testimonial() {
                                                 We handle the entire renting process, from screening tenants to signing leases and collecting rent.
                                             </div>
                                         </div>
-                                        <div className={`col-xxl-5 col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12 ${TestimonialStyles.testimonyCard}`}>
+                                        <div className={`col-xxl-5 col-xl-5 col-lg-5 col-md-12 col-sm-12 col-12 ${TestimonialStyles.testimonyCard}`}>
                                             <div className={TestimonialStyles.testimonyInfo}>
                                                 <div className={TestimonialStyles.testimonyReviewerProfileImage}>
 

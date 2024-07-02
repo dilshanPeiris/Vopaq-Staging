@@ -267,6 +267,17 @@
 }
 
 @media (max-width: 768px) {
+  .sectionTitle {
+    font-size: 12px;
+    line-height: 18.8px;
+    padding-bottom: 8px;
+  }
+
+  .subContainerTitleText {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
   .sectionAboutUs {
     margin: 92px 0;
   }
@@ -298,7 +309,7 @@
 
   .imageCard {
     /* display: none; */
-    width: 70vw;
+    width: -webkit-fill-available;
     height: 35vw;
   }
 
@@ -312,7 +323,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 425px), (max-width: 375px), (max-width: 320px) {
   .container {
     max-width: calc(100% - 24px) !important;
   }
@@ -338,7 +349,7 @@
     gap: 32px;
   }
 
-  .descriptionCard{
+  .descriptionCard {
     height: 75vh;
   }
 

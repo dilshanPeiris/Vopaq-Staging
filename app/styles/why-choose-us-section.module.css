@@ -11,7 +11,7 @@
 }
 
 .mainContainer {
-  /* width: 100vw; */
+  width: 100vw;
   /* background-color: rgb(83, 83, 83); */
   display: flex;
   margin-bottom: 100px;
@@ -23,7 +23,7 @@
   /* box-sizing: border-box; */
   /* background-image: url("../resources/images/why-choose-us.png"); */
   display: flex;
-  width: 55vw;
+  /* width: 55vw; */
   height: 53.177vw;
   justify-content: flex-start;
   align-items: flex-end;
@@ -68,7 +68,7 @@
 }
 
 .subContainerRight {
-  width: 45vw;
+  /* width: 45vw; */
   /* height: 53.177vw; */
   height: 53.177vw;
   background: var(--Vopaq-colors-Aqua-white, #f4f8f8);
@@ -208,7 +208,7 @@
 }
 
 .subContainerLeft {
-  background-size: contain;
+  background-size: cover;
 }
 
 @media (max-width: 1024px) {
@@ -239,6 +239,33 @@
 
   .subContainerRight {
     padding: 24px 32px;
+  }
+
+  .subContainerLeft {
+    padding: 48px;
+  }
+
+  .sectionTitle {
+    width: 50vw;
+    font-size: 12px;
+    line-height: 18.8px;
+  }
+
+  .subContainerDescription {
+    font-size: 14px;
+    line-height: 21px;
+    padding-top: 12px;
+  }
+
+  .featureTitle {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .featureDescription,
+  .featurePointDescription {
+    font-size: 14px;
+    line-height: 21px;
   }
 }
 
@@ -281,7 +308,7 @@
   }
 }
 
-@media (max-width: 375px), (max-width: 320px) {
+@media (max-width: 425px), (max-width: 375px), (max-width: 320px) {
   .container {
     max-width: calc(100% - 0px) !important;
   }

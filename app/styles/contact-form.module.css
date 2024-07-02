@@ -64,7 +64,7 @@
 
 .formGroup textarea {
   flex: 1;
-  margin: 0 5px;
+  /* margin: 0 5px; */
   padding: 10px;
   border-radius: 5px;
   border: none;
@@ -126,6 +126,12 @@
 }
 
 @media (max-width: 768px) {
+
+  .formTitle{
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+  }
   .formContainer {
     width: 80vw;
   }
@@ -133,6 +139,7 @@
   .formGroup {
     width: 60vw;
     margin-top: 12px;
+    height: 32px;
   }
 
   .submitButton {
@@ -149,14 +156,22 @@
 
   .formInput {
     width: 28vw;
+    height: 32px;
   }
 
   .textarea {
     width: -webkit-fill-available;
+    height: 32px;
   }
+  
 }
 
 @media (max-width: 320px) {
+  .formTitle{
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+  }
   .formContainer {
     width: 85vw;
     padding: 24px;
@@ -164,10 +179,12 @@
 
   .formGroup {
     width: 70vw;
+    height: 32px;
   }
 
   .formInput {
     width: 32vw;
+    height: 32px;
   }
 
   .button {

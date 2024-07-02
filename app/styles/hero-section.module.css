@@ -1,5 +1,7 @@
 .container {
   max-width: calc(100% - 0px) !important;
+  overflow-x: hidden;
+  width: max-content;
 }
 
 .row {
@@ -146,7 +148,7 @@
 @media (max-width: 768px) {
   .subContainerLeft {
     width: 100vw;
-    height: fit-content;
+    height: 100vh;
     padding: 40vw 0;
   }
 
@@ -154,13 +156,15 @@
     margin-top: 7vw;
   }
 
-  .titleTextPartOne {
-    font-size: 80px;
-    line-height: 100px;
-  }
+  .titleTextPartOne,
   .titleTextPartTwo {
-    font-size: 80px;
-    line-height: 100px;
+    font-size: 50px;
+    line-height: 70px;
+  }
+
+  .heroDescriptionText {
+    font: size 14px;
+    line-height: 30px;
   }
 }
 
@@ -180,11 +184,48 @@
     font-size: 70px;
     line-height: 90px;
   }
+
+  .heroDescriptionText {
+    font: size 14px;
+    line-height: 30px;
+  }
+}
+
+@media (max-width: 425px) {
+  .container {
+    max-width: calc(100% - 0px) !important;
+  }
+
+  .titleText {
+    padding: 24px 64px;
+  }
+
+  .titleTextPartOne,
+  .titleTextPartTwo {
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  .heroDescriptionText {
+    font: size 14px;
+    line-height: 30px;
+  }
+
+  .heroButtons {
+    justify-content: space-between;
+  }
+
+  .buttonOne,
+  .buttonTwo {
+    max-width: 120px;
+    font-size: 12px;
+    padding: 12px 2px;
+  }
 }
 
 @media (max-width: 375px), (max-width: 320px) {
   .container {
-    max-width: calc(100% - 24px) !important;
+    max-width: calc(100% - 0px) !important;
   }
 
   .titleText {
